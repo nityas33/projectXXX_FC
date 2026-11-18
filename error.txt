@@ -1,0 +1,46 @@
+Line 143: My/..\Migration\testcase\my_testcases.c:55:2: error: #error "Project platform does not uniquely match a TPT execution item"
+	Line 144:    55 | #error "Project platform does not uniquely match a TPT execution item"
+	Line 161:   156 | void Error_Reaction_Variants_error(){
+	Line 164:   172 | void Reset_Complements_Variants_no_error(){
+	Line 173: My/..\Migration\testcase\my_testcases.c:55:2: error: #error "Project platform does not uniquely match a TPT execution item"
+	Line 174:    55 | #error "Project platform does not uniquely match a TPT execution item"
+	Line 176: CTC++ error 7: Cannot execute C or C++ preprocessor or preprocessing failed: 0x1
+	Line 177: mingw32-make.exe: *** [c:\toolbase\bcu\2.6.0/Makefile:700: _gen/exe_mingw_x86/my_main.o] Error 1
+	Line 223: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:581:7: error: 'MonEgyChrgnDefn_flgVrntMcsInlet_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntCcsDcInlet_MoGet'?
+	Line 231: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:585:257: error: 'McsChrgEnaLineU_I_A' undeclared (first use in this function)
+	Line 237: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:588:257: error: 'McsInsertDetnLineU_I_A' undeclared (first use in this function)
+	Line 244: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:593:7: error: 'MonEgyChrgnDefn_flgVrntMcsPlgLock_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntCcsPlgLock_MoGet'?
+	Line 251: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:597:296: error: 'IntlckChrgPlg3Posn_I_A' undeclared (first use in this function); did you mean 'IntlckChrgPlgPosn_I_A'?
+	Line 262: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:54: error: 'McsChrgEnaLineRdy2Diag_I_D' undeclared (first use in this function)
+	Line 282: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:582:24: error: 'MonEgyChrgnDefn_flgVrntMcsInlet_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntMcsInlet'?
+	Line 288: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:585:346: error: 'McsChrgEnaLineU_I_A' undeclared (first use in this function)
+	Line 291: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:588:346: error: 'McsInsertDetnLineU_I_A' undeclared (first use in this function)
+	Line 294: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:594:25: error: 'MonEgyChrgnDefn_flgVrntMcsPlgLock_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntMcsPlgLock'?
+	Line 298: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:597:385: error: 'IntlckChrgPlg3Posn_I_A' undeclared (first use in this function); did you mean 'ret_IntlckChrgPlgPosn_I_A'?
+	Line 306: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:54: error: 'McsChrgEnaLineRdy2Diag_I_D' undeclared (first use in this function)
+	Line 309: CTC++ error 8: Cannot execute C or C++ compiler or compilation failed: 0x1
+	Line 310: mingw32-make.exe: *** [c:\toolbase\bcu\2.6.0/Makefile:699: _gen/exe_mingw_x86/monegychrgninlet_inp.o] Error 1
+	Line 322: ERROR: Command has exited with code 2 
+	Line 464: My/..\Migration\testcase\my_testcases.c:55:2: error: #error "Project platform does not uniquely match a TPT execution item"
+	Line 465:    55 | #error "Project platform does not uniquely match a TPT execution item"
+	Line 482:   156 | void Error_Reaction_Variants_error(){
+	Line 485:   172 | void Reset_Complements_Variants_no_error(){
+	Line 494: My/..\Migration\testcase\my_testcases.c:55:2: error: #error "Project platform does not uniquely match a TPT execution item"
+	Line 495:    55 | #error "Project platform does not uniquely match a TPT execution item"
+	Line 497: CTC++ error 7: Cannot execute C or C++ preprocessor or preprocessing failed: 0x1
+	Line 498: mingw32-make.exe: *** [c:\toolbase\bcu\2.6.0/Makefile:700: _gen/exe_mingw_x86/my_main.o] Error 1
+	Line 517: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:581:7: error: 'MonEgyChrgnDefn_flgVrntMcsInlet_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntCcsDcInlet_MoGet'?
+	Line 525: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:585:257: error: 'McsChrgEnaLineU_I_A' undeclared (first use in this function)
+	Line 531: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:588:257: error: 'McsInsertDetnLineU_I_A' undeclared (first use in this function)
+	Line 538: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:593:7: error: 'MonEgyChrgnDefn_flgVrntMcsPlgLock_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntCcsPlgLock_MoGet'?
+	Line 545: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:597:296: error: 'IntlckChrgPlg3Posn_I_A' undeclared (first use in this function); did you mean 'IntlckChrgPlgPosn_I_A'?
+	Line 556: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:54: error: 'McsChrgEnaLineRdy2Diag_I_D' undeclared (first use in this function)
+	Line 576: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:582:24: error: 'MonEgyChrgnDefn_flgVrntMcsInlet_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntMcsInlet'?
+	Line 582: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:585:346: error: 'McsChrgEnaLineU_I_A' undeclared (first use in this function)
+	Line 585: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:588:346: error: 'McsInsertDetnLineU_I_A' undeclared (first use in this function)
+	Line 588: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:594:25: error: 'MonEgyChrgnDefn_flgVrntMcsPlgLock_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntMcsPlgLock'?
+	Line 592: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:597:385: error: 'IntlckChrgPlg3Posn_I_A' undeclared (first use in this function); did you mean 'ret_IntlckChrgPlgPosn_I_A'?
+	Line 600: Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:54: error: 'McsChrgEnaLineRdy2Diag_I_D' undeclared (first use in this function)
+	Line 603: CTC++ error 8: Cannot execute C or C++ compiler or compilation failed: 0x1
+	Line 604: mingw32-make.exe: *** [c:\toolbase\bcu\2.6.0/Makefile:700: _gen/exe_mingw_x86/monegychrgninlet_inp.o] Error 1
+	Line 648: ERROR: Command has exited with code 2 
