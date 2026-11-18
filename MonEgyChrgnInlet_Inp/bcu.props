@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+// Copyright (C) 2019 Robert Bosch GmbH. All rights reserved.
+// This file is part of the Bosch BCU Framework
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PropertySheetDisplayName>BCU User Macros</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <BcuFrameworkDir>C:\toolbase\bcu\2.6.0\</BcuFrameworkDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <BuildMacro Include="BcuFrameworkDir">
+      <Value>$(BcuFrameworkDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

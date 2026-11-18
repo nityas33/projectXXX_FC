@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BcuProject FrameworkVersion="2.6.0" ToolVersion="2.0.7142.18784">
+  <Information Name="bcu_test" Version="1.0.0" />
+<Sources><Workspaces /><SourceFiles><File Path="sources\monegychrgninlet_inp.c" /><File Path="sources\monegychrgninlet_inp_ascet_confdata.xml" /><File Path="sources\MonEgyChrgnInlet_Inp_fault_inj_code.c" /><File Path="sources\monegychrgninlet_inp_pavast.xml" /></SourceFiles></Sources><Imports Action="CreateCacheFromExternalFiles"><Cache Path="bcu_import_cache_pavast.xml" /><PverFolder Path="..\CDS26_EC3_DEMO___DEMO_ADR1KOR__0__CDS0026_CHRGN___DEMO_ADR1KOR__0__Build_2\CDS26_EC3_DEMO__DEMO_ADR1KOR0" /></Imports><OutputFiles AutoStubGenerator="false" /><Scenarios /><Options /><PreBuildActions /><PostBuildActions /></BcuProject>

@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tspec IMPORT_ARR_ELEMS_AS_ARR="true"
+       applicationVersion="17u1"
+       compresstreeselection="default"
+       filecommentsignalname="filecomment"
+       fileformatversion="31"
+       impactdepth="transitive_closure"
+       mdffastloadthreshold="200"
+       nextAssessletID="18"
+       nextScenarioID="6"
+       tptID="281625009">
+ <header>
+  <testcase-status-type name="In progress"/>
+  <testcase-status-type name="To be reviewed"/>
+  <testcase-status-type name="Stable"/>
+  <declarations>
+   <units>
+    <unit-def binexp="-1" decexp="-1" denom="9" name="°" piexp="1" symbol="deg">
+     <unit-deps>
+      <unit-dep symbol="rad" value="1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="g" prefix="m" symbol="g">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="mg" prefix="u" symbol="mg">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="mg/s" prefix="u" symbol="mg_s">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="s" value="-1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="kg*m" symbol="kg_m">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="kg/m3" symbol="kg_m3">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="-3"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def binexp="-2" decexp="-2" denom="9" name="kg/h" symbol="kg_h">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="s" value="-1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="m/s" symbol="m_s">
+     <unit-deps>
+      <unit-dep symbol="m" value="1"/>
+      <unit-dep symbol="s" value="-1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="m/s2" symbol="m_s2">
+     <unit-deps>
+      <unit-dep symbol="m" value="1"/>
+      <unit-dep symbol="s" value="-2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def binexp="-1" denom="9" name="km/h" nom="5" symbol="km_h">
+     <unit-deps>
+      <unit-dep symbol="m" value="1"/>
+      <unit-dep symbol="s" value="-1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="Hz" symbol="Hz">
+     <unit-deps>
+      <unit-dep symbol="s" value="-1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def binexp="2" decexp="2" name="Ah" nom="9" symbol="Ah">
+     <unit-deps>
+      <unit-dep symbol="s" value="1"/>
+      <unit-dep symbol="A" value="1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="As" symbol="As">
+     <unit-deps>
+      <unit-dep symbol="s" value="1"/>
+      <unit-dep symbol="A" value="1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="A/s" symbol="A_s">
+     <unit-deps>
+      <unit-dep symbol="s" value="-1"/>
+      <unit-dep symbol="A" value="1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="N" symbol="N">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="1"/>
+      <unit-dep symbol="s" value="-2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="Nm" symbol="Nm">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="2"/>
+      <unit-dep symbol="s" value="-2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="N/s" symbol="N_s">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="1"/>
+      <unit-dep symbol="s" value="-3"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="Nm/s" symbol="Nm_s">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="2"/>
+      <unit-dep symbol="s" value="-3"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="Pa" symbol="Pa">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="-1"/>
+      <unit-dep symbol="s" value="-2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="J" symbol="J">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="2"/>
+      <unit-dep symbol="s" value="-2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="W" symbol="W">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="2"/>
+      <unit-dep symbol="s" value="-3"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="Ws" symbol="Ws">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="2"/>
+      <unit-dep symbol="s" value="-2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="C" symbol="C">
+     <unit-deps>
+      <unit-dep symbol="s" value="1"/>
+      <unit-dep symbol="A" value="1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="V" symbol="V">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="2"/>
+      <unit-dep symbol="s" value="-3"/>
+      <unit-dep symbol="A" value="-1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="F" symbol="F">
+     <unit-deps>
+      <unit-dep symbol="kg" value="-1"/>
+      <unit-dep symbol="m" value="-2"/>
+      <unit-dep symbol="s" value="4"/>
+      <unit-dep symbol="A" value="2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="Ohm" symbol="Ohm">
+     <unit-deps>
+      <unit-dep symbol="kg" value="1"/>
+      <unit-dep symbol="m" value="2"/>
+      <unit-dep symbol="s" value="-3"/>
+      <unit-dep symbol="A" value="-2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="S" symbol="S">
+     <unit-deps>
+      <unit-dep symbol="kg" value="-1"/>
+      <unit-dep symbol="m" value="-2"/>
+      <unit-dep symbol="s" value="3"/>
+      <unit-dep symbol="A" value="2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="°C" offset="273.15" symbol="celsius">
+     <unit-deps>
+      <unit-dep symbol="K" value="1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="bit" symbol="bit"/>
+    <unit-def binexp="3" name="B" symbol="B">
+     <unit-deps>
+      <unit-dep symbol="bit" value="1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="%" symbol="percent"/>
+    <unit-def name="%/s" symbol="percent_s">
+     <unit-deps>
+      <unit-dep symbol="percent" value="1"/>
+      <unit-dep symbol="s" value="-1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="%/Nm" symbol="percent_Nm">
+     <unit-deps>
+      <unit-dep symbol="percent" value="1"/>
+      <unit-dep symbol="kg" value="-1"/>
+      <unit-dep symbol="m" value="-2"/>
+      <unit-dep symbol="s" value="2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="l" prefix="m" symbol="_l">
+     <unit-deps>
+      <unit-dep symbol="m" value="3"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def binexp="-1" decexp="-4" denom="3" name="l/min" symbol="_l_min">
+     <unit-deps>
+      <unit-dep symbol="m" value="3"/>
+      <unit-dep symbol="s" value="-1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="rad/s" symbol="rad_s">
+     <unit-deps>
+      <unit-dep symbol="s" value="-1"/>
+      <unit-dep symbol="rad" value="1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="1/s" symbol="_1_s">
+     <unit-deps>
+      <unit-dep symbol="s" value="-1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="1/s2" symbol="_1_s2">
+     <unit-deps>
+      <unit-dep symbol="s" value="-2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def binexp="-1" decexp="-1" denom="3" name="rpm" symbol="rpm">
+     <unit-deps>
+      <unit-dep symbol="s" value="-1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def binexp="-1" decexp="-1" denom="3" name="U/min" symbol="U_min">
+     <unit-deps>
+      <unit-dep symbol="s" value="-1"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def binexp="-1" decexp="-1" denom="3" name="U/(min*s)" symbol="U_min_s">
+     <unit-deps>
+      <unit-dep symbol="s" value="-2"/>
+     </unit-deps>
+    </unit-def>
+    <unit-def name="-" symbol="_"/>
+   </units>
+   <channels>
+    <channel log="true" name="My_nSawtooth10ms" role="input" type="int16" unit="_" value="0"/>
+    <channel log="true" name="My_nSawtoothNSync" role="input" type="int16" unit="_" value="0"/>
+    <channel log="true" name="My_result" role="input" type="int16" unit="_" value="0"/>
+   </channels>
+   <parameters>
+    <parameter exchangeMode="exchange" name="My_Epm_nEng_C" type="double" unit="rpm" value="1200.0"/>
+    <parameter exchangeMode="exchange" name="My_Epm_numCyl_C" type="int32" unit="_" value="4"/>
+    <parameter exchangeMode="exchange" name="My_nSawtoothMax10ms_C" type="int32" unit="_" value="200"/>
+    <parameter exchangeMode="exchange" name="My_nSawtoothMaxNSync_C" type="int32" unit="_" value="400"/>
+    <parameter exchangeMode="exchange" name="My_nSawtoothMin10ms_C" type="int32" unit="_" value="100"/>
+    <parameter exchangeMode="exchange" name="My_nSawtoothMinNSync_C" type="int32" unit="_" value="300"/>
+    <parameter exchangeMode="exchange" name="My_x_C" type="int32" unit="_" value="0"/>
+    <parameter exchangeMode="exchange" name="My_y_C" type="int32" unit="_" value="0"/>
+   </parameters>
+  </declarations>
+  <equivalence-class-sets/>
+  <mapped-object-equivalence-class-sets/>
+  <mappings>
+   <mapping name="FromInterfaceImport" uuid="534135a2-727f-4a6d-85e2-ea4e72d59181">
+    <flavor type="A2L">
+     <flavorattr decl="My_Epm_nEng_C" name="alignment" value="2"/>
+     <flavorattr decl="My_Epm_nEng_C" name="address" value="0x20000002"/>
+     <flavorattr decl="My_Epm_nEng_C" name="deposit" value="COL_DIR"/>
+     <flavorattr decl="My_Epm_nEng_C" name="module_name" value="DIM"/>
+     <flavorattr decl="My_Epm_numCyl_C" name="address" value="0x20000000"/>
+     <flavorattr decl="My_Epm_numCyl_C" name="deposit" value="COL_DIR"/>
+     <flavorattr decl="My_Epm_numCyl_C" name="module_name" value="DIM"/>
+     <flavorattr decl="My_nSawtooth10ms" name="address" value="0x10000002"/>
+     <flavorattr decl="My_nSawtooth10ms" name="deposit" value="COL_DIR"/>
+     <flavorattr decl="My_nSawtooth10ms" name="module_name" value="DIM"/>
+     <flavorattr decl="My_nSawtoothMax10ms_C" name="alignment" value="2"/>
+     <flavorattr decl="My_nSawtoothMax10ms_C" name="address" value="0x2000000a"/>
+     <flavorattr decl="My_nSawtoothMax10ms_C" name="deposit" value="COL_DIR"/>
+     <flavorattr decl="My_nSawtoothMax10ms_C" name="module_name" value="DIM"/>
+     <flavorattr decl="My_nSawtoothMaxNSync_C" name="alignment" value="2"/>
+     <flavorattr decl="My_nSawtoothMaxNSync_C" name="address" value="0x2000000e"/>
+     <flavorattr decl="My_nSawtoothMaxNSync_C" name="deposit" value="COL_DIR"/>
+     <flavorattr decl="My_nSawtoothMaxNSync_C" name="module_name" value="DIM"/>
+     <flavorattr decl="My_nSawtoothMin10ms_C" name="alignment" value="2"/>
+     <flavorattr decl="My_nSawtoothMin10ms_C" name="address" value="0x20000008"/>
+     <flavorattr decl="My_nSawtoothMin10ms_C" name="deposit" value="COL_DIR"/>
+     <flavorattr decl="My_nSawtoothMin10ms_C" name="module_name" value="DIM"/>
+     <flavorattr decl="My_nSawtoothMinNSync_C" name="alignment" value="2"/>
+     <flavorattr decl="My_nSawtoothMinNSync_C" name="address" value="0x2000000c"/>
+     <flavorattr decl="My_nSawtoothMinNSync_C" name="deposit" value="COL_DIR"/>
+     <flavorattr decl="My_nSawtoothMinNSync_C" name="module_name" value="DIM"/>
+     <flavorattr decl="My_nSawtoothNSync" name="address" value="0x10000004"/>
+     <flavorattr decl="My_nSawtoothNSync" name="deposit" value="COL_DIR"/>
+     <flavorattr decl="My_nSawtoothNSync" name="module_name" value="DIM"/>
+     <flavorattr decl="My_result" name="address" value="0x10000000"/>
+     <flavorattr decl="My_result" name="deposit" value="COL_DIR"/>
+     <flavorattr decl="My_result" name="module_name" value="DIM"/>
+     <flavorattr decl="My_x_C" name="alignment" value="2"/>
+     <flavorattr decl="My_x_C" name="address" value="0x20000004"/>
+     <flavorattr decl="My_x_C" name="deposit" value="COL_DIR"/>
+     <flavorattr decl="My_x_C" name="module_name" value="DIM"/>
+     <flavorattr decl="My_y_C" name="alignment" value="2"/>
+     <flavorattr decl="My_y_C" name="address" value="0x20000006"/>
+     <flavorattr decl="My_y_C" name="deposit" value="COL_DIR"/>
+     <flavorattr decl="My_y_C" name="module_name" value="DIM"/>
+    </flavor>
+    <flavor type="ETASInca"/>
+    <flavor type="Min/Max">
+     <flavorattr decl="My_Epm_nEng_C" name="Min" value="-16384.0"/>
+     <flavorattr decl="My_Epm_nEng_C" name="Max" value="16383.5"/>
+     <flavorattr decl="My_Epm_numCyl_C" name="Min" value="0.0"/>
+     <flavorattr decl="My_Epm_numCyl_C" name="Max" value="255.0"/>
+     <flavorattr decl="My_nSawtooth10ms" name="Min" value="-32768.0"/>
+     <flavorattr decl="My_nSawtooth10ms" name="Max" value="32767.0"/>
+     <flavorattr decl="My_nSawtoothMax10ms_C" name="Min" value="-32768.0"/>
+     <flavorattr decl="My_nSawtoothMax10ms_C" name="Max" value="32767.0"/>
+     <flavorattr decl="My_nSawtoothMaxNSync_C" name="Min" value="-32768.0"/>
+     <flavorattr decl="My_nSawtoothMaxNSync_C" name="Max" value="32767.0"/>
+     <flavorattr decl="My_nSawtoothMin10ms_C" name="Min" value="-32768.0"/>
+     <flavorattr decl="My_nSawtoothMin10ms_C" name="Max" value="32767.0"/>
+     <flavorattr decl="My_nSawtoothMinNSync_C" name="Min" value="-32768.0"/>
+     <flavorattr decl="My_nSawtoothMinNSync_C" name="Max" value="32767.0"/>
+     <flavorattr decl="My_nSawtoothNSync" name="Min" value="-32768.0"/>
+     <flavorattr decl="My_nSawtoothNSync" name="Max" value="32767.0"/>
+     <flavorattr decl="My_result" name="Min" value="-32768.0"/>
+     <flavorattr decl="My_result" name="Max" value="32767.0"/>
+     <flavorattr decl="My_x_C" name="Min" value="-32768.0"/>
+     <flavorattr decl="My_x_C" name="Max" value="32767.0"/>
+     <flavorattr decl="My_y_C" name="Min" value="-32768.0"/>
+     <flavorattr decl="My_y_C" name="Max" value="32767.0"/>
+    </flavor>
+    <flavor hiderowsoncreation="false" type="Rename">
+     <flavorattr decl="My_Epm_nEng_C" name="external-name" value="My_Epm_nEng_C"/>
+     <flavorattr decl="My_Epm_numCyl_C" name="external-name" value="My_Epm_numCyl_C"/>
+     <flavorattr decl="My_nSawtooth10ms" name="external-name" value="My_nSawtooth10ms"/>
+     <flavorattr decl="My_nSawtoothMax10ms_C" name="external-name" value="My_nSawtoothMax10ms_C"/>
+     <flavorattr decl="My_nSawtoothMaxNSync_C" name="external-name" value="My_nSawtoothMaxNSync_C"/>
+     <flavorattr decl="My_nSawtoothMin10ms_C" name="external-name" value="My_nSawtoothMin10ms_C"/>
+     <flavorattr decl="My_nSawtoothMinNSync_C" name="external-name" value="My_nSawtoothMinNSync_C"/>
+     <flavorattr decl="My_nSawtoothNSync" name="external-name" value="My_nSawtoothNSync"/>
+     <flavorattr decl="My_result" name="external-name" value="My_result"/>
+     <flavorattr decl="My_x_C" name="external-name" value="My_x_C"/>
+     <flavorattr decl="My_y_C" name="external-name" value="My_y_C"/>
+    </flavor>
+    <flavor type="Scaling">
+     <flavorattr decl="My_Epm_nEng_C" name="external-type" value="INT16"/>
+     <flavorattr decl="My_Epm_nEng_C" name="mode" value="ON"/>
+     <flavorattr decl="My_Epm_nEng_C" name="bias" value="-0.0"/>
+     <flavorattr decl="My_Epm_nEng_C" name="slope-denom" value="-0.0"/>
+     <flavorattr decl="My_Epm_nEng_C" name="bias-denom" value="2.0"/>
+     <flavorattr decl="My_Epm_nEng_C" name="dt-scale-min" value="-16384.0"/>
+     <flavorattr decl="My_Epm_nEng_C" name="dt-scale-max" value="16383.5"/>
+     <flavorattr decl="My_Epm_numCyl_C" name="external-type" value="UINT8"/>
+     <flavorattr decl="My_nSawtooth10ms" name="external-type" value="INT16"/>
+     <flavorattr decl="My_nSawtoothMax10ms_C" name="external-type" value="INT16"/>
+     <flavorattr decl="My_nSawtoothMaxNSync_C" name="external-type" value="INT16"/>
+     <flavorattr decl="My_nSawtoothMin10ms_C" name="external-type" value="INT16"/>
+     <flavorattr decl="My_nSawtoothMinNSync_C" name="external-type" value="INT16"/>
+     <flavorattr decl="My_nSawtoothNSync" name="external-type" value="INT16"/>
+     <flavorattr decl="My_result" name="external-type" value="INT16"/>
+     <flavorattr decl="My_x_C" name="external-type" value="INT16"/>
+     <flavorattr decl="My_y_C" name="external-type" value="INT16"/>
+    </flavor>
+   </mapping>
+  </mappings>
+ </header>
+ <body>
+  <test_case_attributes>
+   <test_case_attribute copyable="true" name="Test Specification"/>
+   <test_case_attribute copyable="true" name="Preconditions"/>
+   <test_case_attribute copyable="true" name="Pass Conditions"/>
+  </test_case_attributes>
+  <toplevel id="0" mainGrp="6e9cf218-3dde-4e3e-b6b0-da0e6820837b" name="main" posX="0" posY="0" uuid="cd1086e8-f6e6-4bd4-bb91-9bf4de5e6f1e">
+   <testlets>
+    <testlet id="1" mainGrp="f744dcb2-7d10-43d2-974d-5c958d907138" name="Testlet" posX="200" posY="100" uuid="a5a8a67e-d3fb-4008-8219-21f0be8c24d9">
+     <testlets/>
+     <scenario_group id="2" name="Variants" uuid="f744dcb2-7d10-43d2-974d-5c958d907138">
+      <scenario_ts id="3" name="default" uuid="3770b12a-28a4-4c0b-be96-ab3aa80d8e11">
+       <ts_doc description="TC1"/>
+       <ts_embeddedsignal channel="My_x_C" data_type="double" endtime="20000001us" startTime="0us" time="0us,3s,6s,10s,20s" value="eJxjYACBD/sZILQ9hGZwgFAcUFrAAQBeXgO3"/>
+       <ts_embeddedsignal channel="My_y_C" data_type="double" endtime="20000001us" startTime="0us" time="0us,3s,5s,6s,7s,12s,14s,20s" value="eJxjYEABDhCKA0oLQGmGA6jyH+xh8gBFZwNY"/>
+      </scenario_ts>
+     </scenario_group>
+     <testlet-settings/>
+    </testlet>
+   </testlets>
+   <junction name="junc_001" posX="100" posY="100" uuid="be9a48a0-726b-49b9-898f-684fa3457f1f"/>
+   <final name="final_001" posX="300" posY="100" uuid="c6f7b9cb-8b73-4d73-ad99-2ccb2d9b5e5d"/>
+   <transitions>
+    <transition from="a5a8a67e-d3fb-4008-8219-21f0be8c24d9" name="trans_002" namePosX="248" namePosY="100" to="c6f7b9cb-8b73-4d73-ad99-2ccb2d9b5e5d" uuid="acb75edd-d931-4243-ac4e-1b1384fb6057">
+     <transspec name="default" uuid="4fd67b11-2e96-4810-945c-c183f13f8743"/>
+    </transition>
+    <transition from="be9a48a0-726b-49b9-898f-684fa3457f1f" name="trans_001" namePosX="152" namePosY="100" to="a5a8a67e-d3fb-4008-8219-21f0be8c24d9" uuid="e153ef37-0570-4344-a91c-9f96d5e8b19a">
+     <transspec name="default" uuid="41e8d3e6-ecac-45ea-bd57-b0e18f401b71"/>
+    </transition>
+   </transitions>
+   <scenario_group id="0" name="Test Cases" uuid="6e9cf218-3dde-4e3e-b6b0-da0e6820837b">
+    <scenario_tp hash-uptodate="false,false,false" id="1" name="default" uuid="9c8528d9-3610-44e4-8ac8-237286c6af21">
+     <st scenId="3770b12a-28a4-4c0b-be96-ab3aa80d8e11"/>
+     <tr specId="4fd67b11-2e96-4810-945c-c183f13f8743"/>
+     <tr specId="41e8d3e6-ecac-45ea-bd57-b0e18f401b71"/>
+    </scenario_tp>
+   </scenario_group>
+   <testlet-settings/>
+  </toplevel>
+  <assesslets default-section="59f59645-fcf9-4f2e-befe-cf7306d438ed" normalize-vars-with-time-unit="false">
+   <assessletgroup id="0" name="Assesslets" uuid="24b13c78-40bc-4471-8fbb-1b8bcfda235a">
+    <assesslet hash-uptodate="false" id="1" name="Test Step List Assessments" section="59f59645-fcf9-4f2e-befe-cf7306d438ed" type="StepListAssessments" uuid="047305ec-3873-4b92-a07c-ef63f6434143"/>
+    <assessletgroup id="2" name="TC1" uuid="de166c16-09c1-43bd-8b5f-a02f65d699a1">
+     <assesslet hash-uptodate="false" id="3" name="Test_Add" section="59f59645-fcf9-4f2e-befe-cf7306d438ed" type="TriggerRuleType" uuid="089b97ad-dd3a-42c3-b40d-52b524549b4f" verbose="true">
+      <assesslet_triggerrule abortExpression="" elseExpression="" errorIfNoMatch="true" ifExpression="true" isShowStateInfo="false" stopExpression="" stopExpressionTime="" thenExpression="My_result == My_x_C + My_y_C" thenExpressionAdditional="ALWAYS_TRUE_AS_LONG_AS_IF_IS_TRUE" thenExpressionAfterSecs="0" thenExpressionBeforeSecs="0"/>
+     </assesslet>
+    </assessletgroup>
+   </assessletgroup>
+   <assessletgroup id="4" name="Report" uuid="71580d44-18c3-48dc-b20e-3b4d3f8d81ab">
+    <assessletgroup id="5" name="Test Information" uuid="d4d632e3-33de-4ab2-a56f-01921895662a">
+     <assesslet hash-uptodate="false" id="6" name="Test Information" type="SectionReportAssessletType" uuid="28819101-a37f-442f-b41b-a3e595b53488"/>
+     <assesslet hash-uptodate="false" id="7" name="Meta Information" section="28819101-a37f-442f-b41b-a3e595b53488" type="MetaInformationReportAssessletType" uuid="8d5a515d-2ebd-41f2-bbde-a5061b257edb">
+      <assesslet_meta/>
+     </assesslet>
+     <assesslet hash-uptodate="false" id="8" name="Assesslet Summary" section="28819101-a37f-442f-b41b-a3e595b53488" type="AssessletSummaryReportAssessletType" uuid="edd0e9d9-5347-4af9-ab80-5cd0c6a7128e"/>
+    </assessletgroup>
+    <assessletgroup id="9" name="Signals" uuid="c5557cca-1cdf-4f06-bfe5-eaffe82d7cfc">
+     <assesslet hash-uptodate="false" id="10" name="Signals" type="SectionReportAssessletType" uuid="142713e3-e5e8-42ed-9c88-b740fe913031"/>
+     <assesslet hash-uptodate="false" id="11" name="System Constants" section="142713e3-e5e8-42ed-9c88-b740fe913031" type="SignalTableReportAssessletType" uuid="bfb44dba-b6d7-4eab-b22b-b983dabafeed">
+      <assesslet_signalTableReport>
+       <reportAssessletFilter_signalTable showDeclSysConstants="true"/>
+      </assesslet_signalTableReport>
+     </assesslet>
+     <assesslet hash-uptodate="false" id="12" name="Assessments" section="142713e3-e5e8-42ed-9c88-b740fe913031" type="SignalTableReportAssessletType" uuid="fcee9b0d-3e96-4518-bfab-1191beee2cb6">
+      <assesslet_signalTableReport>
+       <reportAssessletFilter_signalTable showAssessmentVariables="true" showScriptVariables="true"/>
+      </assesslet_signalTableReport>
+     </assesslet>
+     <assesslet hash-uptodate="false" id="13" name="Inputs" section="142713e3-e5e8-42ed-9c88-b740fe913031" type="SignalTableReportAssessletType" uuid="a0cee51b-37e7-4008-afbb-7cf84be2abd8">
+      <assesslet_signalTableReport>
+       <reportAssessletFilter_signalTable showInputs="true"/>
+      </assesslet_signalTableReport>
+     </assesslet>
+     <assesslet hash-uptodate="false" id="14" name="Outputs" section="142713e3-e5e8-42ed-9c88-b740fe913031" type="SignalTableReportAssessletType" uuid="787580e4-d88a-45d0-b026-19994f77f3b8">
+      <assesslet_signalTableReport>
+       <reportAssessletFilter_signalTable showOutputs="true"/>
+      </assesslet_signalTableReport>
+     </assesslet>
+     <assesslet hash-uptodate="false" id="15" name="Measurements" section="142713e3-e5e8-42ed-9c88-b740fe913031" type="SignalTableReportAssessletType" uuid="683eb1d8-685b-4bb4-843f-f5e6d88c0164">
+      <assesslet_signalTableReport>
+       <reportAssessletFilter_signalTable showMeasurements="true"/>
+      </assesslet_signalTableReport>
+     </assesslet>
+     <assesslet hash-uptodate="false" id="16" name="Parameters" section="142713e3-e5e8-42ed-9c88-b740fe913031" type="SignalTableReportAssessletType" uuid="cb327df4-0afe-4bdd-9aeb-cba0911b444a">
+      <assesslet_signalTableReport>
+       <reportAssessletFilter_signalTable showParameters="true"/>
+      </assesslet_signalTableReport>
+     </assesslet>
+    </assessletgroup>
+    <assesslet hash-uptodate="false" id="17" name="Assesslets" type="SectionReportAssessletType" uuid="59f59645-fcf9-4f2e-befe-cf7306d438ed"/>
+   </assessletgroup>
+  </assesslets>
+ </body>
+ <execspec>
+  <testsets>
+   <testset name="All" uuid="7b5fd9d6-3269-4459-9437-757466f69076">
+    <ts_selected all-in="true" uuid-ref="6e9cf218-3dde-4e3e-b6b0-da0e6820837b"/>
+   </testset>
+  </testsets>
+  <platformconfigs>
+   <platformconfig name="FUSION Platform" type="tptplugins.fusionplatform.FusionPlatform" uuid="ccb89e72-b37f-4d20-8e2c-51bf3f50ddc7">
+    <platformspecific key="additionalPath" value=""/>
+    <platformspecific key="appendMonDat" value="false"/>
+    <platformspecific key="codecoverage" value="false"/>
+    <platformspecific key="coveragetool" value=""/>
+    <platformspecific key="ctc2html" value="-nsb -no-sources --enable-annotations"/>
+    <platformspecific key="ctctimeout" value="120"/>
+    <platformspecific key="eclipseDebugging" value="false"/>
+    <platformspecific key="eclipseSourcePath" value=""/>
+    <platformspecific key="eclipseVersionName" value=""/>
+    <platformspecific key="excludefiles" value=""/>
+    <platformspecific key="fusionStepSize" value="10000"/>
+    <platformspecific key="highprio" value="false"/>
+    <platformspecific key="history" value="100"/>
+    <platformspecific key="limitToMinMax" value="false"/>
+    <platformspecific key="mappingname" value="534135a2-727f-4a6d-85e2-ea4e72d59181"/>
+    <platformspecific key="mondatfile" value="${tpt.fusionplatform.workdir}\MON.dat"/>
+    <platformspecific key="monsymfile" value="${tpt.fusionplatform.workdir}\MON.sym"/>
+    <platformspecific key="nodes.0" value="Custom Node"/>
+    <platformspecific key="nodes.0.arguments" value="verbose"/>
+    <platformspecific key="nodes.0.checksum" value="0"/>
+    <platformspecific key="nodes.0.importFromDll" value="false"/>
+    <platformspecific key="nodes.0.nodePath" value="_gen\TPT_Debug_x86\bcu.dll"/>
+    <platformspecific key="nodes.0.package" value="My FC"/>
+    <platformspecific key="nodes.0.version" value="1.0.0"/>
+    <platformspecific key="nodes.1" value="Test Execution Node"/>
+    <platformspecific key="nodes.2" value="Parameter Exchange Node"/>
+    <platformspecific key="nodes.count" value="3"/>
+    <platformspecific key="postplatformscript" value=""/>
+    <platformspecific key="preplatformscript" value=""/>
+    <platformspecific key="readparamsonlyfirst" value="false"/>
+    <platformspecific key="requiresInitialChannelExchange" value="false"/>
+    <platformspecific key="setWinTimerResolution" value="true"/>
+    <platformspecific key="showMessageBoxBeforeFirstCycle" value="false"/>
+    <platformspecific key="singlethreaded" value="true"/>
+    <platformspecific key="sourcefiles" value=""/>
+    <platformspecific key="stepsize" value="10000"/>
+    <platformspecific key="timeout" value="10000000"/>
+    <platformspecific key="useFusionStepSize" value="false"/>
+    <platformspecific key="useHiddenFlag" value="false"/>
+    <platformspecific key="workingdir" value="${tpt.tptfile.dir}"/>
+   </platformconfig>
+  </platformconfigs>
+  <execconfigs>
+   <execconfig cancelafterxfailedtests="9999" cores="1" datadir="${tpt.tptfile.dir}\testdata" managementrevision="Current" name="Default Configuration" refdatadirmode="PlatformDir" reportformats="html" runassess="true" runexec="true" runreport="true" structure="HIERARCHICAL_WITH_INDEX" uuid="88c4f0d3-636b-4e72-b9ae-db81594d4f7a">
+    <advanced-report-options pack_testrecorddata="false" pack_testreportdata="true" pack_testsummarydata="false" showAssessletStatusSummary="true" showTestcaseStatusSummary="true" showassessmentvariables="passed_failed_only" showtestcasestatusinformation="true"/>
+    <execconfigattr key="Tester" value="eur2fe"/>
+    <execconfigattr key="System under Test" value=""/>
+    <execconfigattr key="Revision" value=""/>
+    <execconfigitem platform="ccb89e72-b37f-4d20-8e2c-51bf3f50ddc7" testset="7b5fd9d6-3269-4459-9437-757466f69076"/>
+   </execconfig>
+  </execconfigs>
+ </execspec>
+ <tspec-settings execconfig="88c4f0d3-636b-4e72-b9ae-db81594d4f7a" platform="ccb89e72-b37f-4d20-8e2c-51bf3f50ddc7">
+  <selection>
+   <selected-scen path="9c8528d9-3610-44e4-8ac8-237286c6af21" testlet="cd1086e8-f6e6-4bd4-bb91-9bf4de5e6f1e"/>
+  </selection>
+ </tspec-settings>
+ <extension name="DebugXMLReadWriteExtension">
+  <default-debug-preferences escapesignalnames="true" fileformatversion="4" index="-1" name="default signal viewer preferences for debugging">
+   <viewers compact-mode="false" compoundviewer-scrollbar-position="-1" frame-height="533" frame-width="910" is-regexp="false" multisplit-mode="true" name-filter="" search-filter-mode="SEARCH" show-constant-signals-only="true" show-dots="false" show-drawn-variables-only="false" show-legend="true" show-lines="true" show-relevant-signals-only="false" show-signals_constant_between_cursor="true" show-values-next-to-cursor="true" splitpane-location="300" vertical-scrollbar-position="0">
+    <columns>
+     <viewer-details sequence="false" split-weight="1.0" viewer-height="439" xaxis-autoscale="true" xaxis-interval="0.0:1.05" yaxis-left-autoscale="true" yaxis-left-interval="-0.2:1.2" yaxis-right-autoscale="false">
+      <drawnSignals/>
+     </viewer-details>
+    </columns>
+    <role-filter-settings assessletresult="FAILED, SUCCESS, DONT_KNOW, EXECUTION_ERROR" assessment="FAILED, SUCCESS, DONT_KNOW, EXECUTION_ERROR" channel-in="FAILED, SUCCESS, DONT_KNOW, EXECUTION_ERROR" channel-local="FAILED, SUCCESS, DONT_KNOW, EXECUTION_ERROR" channel-out="FAILED, SUCCESS, DONT_KNOW, EXECUTION_ERROR" constant="FAILED, SUCCESS, DONT_KNOW, EXECUTION_ERROR" measurement="FAILED, SUCCESS, DONT_KNOW, EXECUTION_ERROR" parameter="FAILED, SUCCESS, DONT_KNOW, EXECUTION_ERROR" systemconstant="FAILED, SUCCESS, DONT_KNOW, EXECUTION_ERROR" virtualvariable="FAILED, SUCCESS, DONT_KNOW, EXECUTION_ERROR"/>
+    <bitwiseSignals/>
+    <render-styles/>
+    <expanded-signals/>
+   </viewers>
+  </default-debug-preferences>
+ </extension>
+</tspec>

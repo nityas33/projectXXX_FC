@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE MSRSW PUBLIC "-//MSR//DTD MSR SOFTWARE DTD:V2.2.2:RB17:LAI:IAI:XML:MSRSW.DTD//EN" "msrsw_v222_rb17.xml.dtd">
+
+<MSRSW>
+  <CATEGORY>ConfData</CATEGORY>
+  <ADMIN-DATA>
+    <LANGUAGE>en</LANGUAGE>
+    <COMPANY-DOC-INFOS>
+      <COMPANY-DOC-INFO>
+        <COMPANY-REF>RB</COMPANY-REF>
+        <SDGS>
+          <SDG GID="RBHead-eASEE-Keywords">
+            <SD GID="Filename"></SD>
+            <SD GID="Author"></SD>
+            <SD GID="Function"></SD>
+            <SD GID="Domain"></SD>
+            <SD GID="User"></SD>
+            <SD GID="Date"></SD>
+            <SD GID="Class"></SD>
+            <SD GID="Name"></SD>
+            <SD GID="Variant"></SD>
+            <SD GID="Revision"></SD>
+            <SD GID="Type"></SD>
+            <SD GID="State"></SD>
+            <SD GID="UniqueName"></SD>
+            <SD GID="Component"></SD>
+            <SD GID="Generated"></SD>
+            <SD GID="FDEF"></SD>
+            <SD GID="History"></SD>
+            <SD GID="ASCET-User">LEM3WI</SD>
+            <SD GID="ASCET-Date">16.04.2025 09:29</SD>
+            <SD GID="ASCET-Component-Name">MonEgyChrgnInlet_Inp</SD>
+            <SD GID="ASCET-Component-Implementation">IMPL</SD>
+            <SD GID="ASCET-Version/Installation">ASCET V6.4.5 RB-PSEC 1.5</SD>
+            <SD GID="ASCET-MSRSW-Writer-Version">V13.12</SD>
+            <SD GID="ASCET-Target">dgsmedc17_mo</SD>
+          </SDG>
+        </SDGS>
+      </COMPANY-DOC-INFO>
+    </COMPANY-DOC-INFOS>
+  </ADMIN-DATA>
+  <SW-SYSTEMS>
+    <SW-SYSTEM>
+      <LONG-NAME>EDC/ME(D)17</LONG-NAME>
+      <SHORT-NAME>MEDC17</SHORT-NAME>
+      <CONF-SPEC>
+        <CONF-ITEMS>
+          <CONF-SOURCE>
+            <SW-FEATURE-REF>MonEgyChrgnInlet_Inp</SW-FEATURE-REF>
+          </CONF-SOURCE>
+          <CONF-ITEM>
+            <SHORT-NAME>OS</SHORT-NAME>
+            <CONF-RULES-EDITION>1</CONF-RULES-EDITION>
+            <CONF-ITEMS></CONF-ITEMS>
+          </CONF-ITEM>
+		    <CONF-ITEM>
+            <SHORT-NAME>DIO</SHORT-NAME>
+            <CONF-RULES-EDITION>1</CONF-RULES-EDITION>
+            <CONF-ITEMS>
+			  <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>((<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CCSACINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CCSDCINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CHINAACINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1)) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDIAGSWTCTP_SC</SW-SYSTEMCONST-CODED-REF> == 1)</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>CtpCcsSwt_O_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>OUT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+              <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0)</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>ChademoChrgnEna_O_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>OUT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+              <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF> == 0) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0)</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>ChademoChrgnStrt_I_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>IN</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+              <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>(((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1)) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0))</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>ChademoPxpEna_O_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>OUT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+              <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAANAUX_SC</SW-SYSTEMCONST-CODED-REF> == 0) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0)</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>ChinaChrgnAuxDig1_I_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>IN</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+              <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0)</SW-SYSCOND>
+				<CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>DiagCtp1Aux_O_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>OUT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+              <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>(((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1)) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0))</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>DiagPxp_O_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>OUT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+              <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_GBTDCDIAGSWTCC1_SC</SW-SYSTEMCONST-CODED-REF> == 1)&amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0)</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>DiagPxpRdnt_O_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>OUT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+              <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1)&amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 1)</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>ChaxCtrlPltSwtDiag_O_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>OUT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+              <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1)&amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 1)</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>ChaxProxPltSwt21_O_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>OUT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>		
+              <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>(((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1))&amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 1))</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>ChaxProxPltSwtDiag1_O_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>OUT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>		
+              <CONF-ITEM>
+                <SHORT-NAME>DIO_SIGNAL_REQUEST</SHORT-NAME>
+				<SW-SYSCOND>(((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1))&amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 1))</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_SIGNAL_NAME</SHORT-NAME>
+                    <VT>ChaxProxPltSwtDiag2_O_D</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>DIO_DIR</SHORT-NAME>
+                    <VT>OUT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>				  
+			  <CONF-ITEM>
+                <SHORT-NAME>RBA_IOSIGIFADAPT_GENERAL</SHORT-NAME>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>RBA_IOSIGIFADAPT_REQUESTHANDLING</SHORT-NAME>
+                    <VT>STRICT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+			</CONF-ITEMS>  
+          </CONF-ITEM>
+          <CONF-ITEM>
+            <SHORT-NAME>ADC</SHORT-NAME>
+            <CONF-RULES-EDITION>1</CONF-RULES-EDITION>
+            <CONF-ITEMS>
+			  <CONF-ITEM>
+                <SHORT-NAME>RBA_IOSIGIFADAPT_GENERAL</SHORT-NAME>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>RBA_IOSIGIFADAPT_REQUESTHANDLING</SHORT-NAME>
+                    <VT>STRICT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+              <CONF-ITEM>
+                <SHORT-NAME>ADC_SIGNALS</SHORT-NAME>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>BattU_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF> == 1)&amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0)</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>ChademoChrgnCtpU1_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0)</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>ChademoChrgnEnaDiagU_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAANAUX_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0)</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>ChinaChrgnAuxU2_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0)</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>ChinaChrgnCc1U2_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0)</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>ChinaChrgnPxpU1_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CCSPLGLOCK_SC </SW-SYSTEMCONST-CODED-REF> == 1) </SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>IntlckChrgPlgPosn_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CCSACINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CCSDCINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CHINAACINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1)</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>UCtP_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CCSACINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CCSDCINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CHINAACINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1)</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>UPxP1_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1))&amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 1))</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>ChaxProxPltDiagUNeg_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>					  
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 0)</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>ChademoChrgnPxpU1_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1)&amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 1)</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>ChaxCtrlPltU1_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1)&amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 1)</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>ChaxCtrlPltU2_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>				  
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1))&amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 1))</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>ChaxProxPltU1_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>
+				  <CONF-ITEM>
+                    <SHORT-NAME>ADC_SIGNAL</SHORT-NAME>
+					<SW-SYSCOND>(((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> == 1))&amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF> == 1))</SW-SYSCOND>
+                    <CONF-ITEMS>
+                      <CONF-ITEM>
+                        <SHORT-NAME>ADC_SIGNAL_NAME</SHORT-NAME>
+                        <VT>ChaxProxPltU2_I_A</VT>
+                      </CONF-ITEM>
+                    </CONF-ITEMS>
+                  </CONF-ITEM>				  
+                 </CONF-ITEMS>
+              </CONF-ITEM>
+            </CONF-ITEMS>
+          </CONF-ITEM>
+          <CONF-ITEM>
+            <SHORT-NAME>PWMIN</SHORT-NAME>
+            <CONF-RULES-EDITION>1</CONF-RULES-EDITION>
+            <CONF-ITEMS>
+              <CONF-ITEM>
+                <SHORT-NAME>PWMIN_SIGNAL_REQUEST</SHORT-NAME>
+					<SW-SYSCOND>(<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CCSACINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CCSDCINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1) || (<SW-SYSTEMCONST-CODED-REF> CHRGNFCTSFTY_CHINAACINLET_SC </SW-SYSTEMCONST-CODED-REF> == 1)</SW-SYSCOND>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>PWMIN_SIGNALNAME</SHORT-NAME>
+                    <VT>PwmCtP_I_P</VT>
+                  </CONF-ITEM>
+                  <CONF-ITEM>
+                    <SHORT-NAME>PWMIN_USED</SHORT-NAME>
+                    <VT>yes</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+			  <CONF-ITEM>
+                <SHORT-NAME>RBA_IOSIGIFADAPT_GENERAL</SHORT-NAME>
+                <CONF-ITEMS>
+                  <CONF-ITEM>
+                    <SHORT-NAME>RBA_IOSIGIFADAPT_REQUESTHANDLING</SHORT-NAME>
+                    <VT>STRICT</VT>
+                  </CONF-ITEM>
+                </CONF-ITEMS>
+              </CONF-ITEM>
+            </CONF-ITEMS>
+          </CONF-ITEM>
+        </CONF-ITEMS>
+      </CONF-SPEC>
+    </SW-SYSTEM>
+  </SW-SYSTEMS>
+  <MATCHING-DCIS>
+    <MATCHING-DCI>
+      <SHORT-LABEL>ConfData</SHORT-LABEL>
+    </MATCHING-DCI>
+  </MATCHING-DCIS>
+</MSRSW>

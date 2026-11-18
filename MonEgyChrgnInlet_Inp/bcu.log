@@ -1,0 +1,800 @@
+----- Starting 'make' action -----
+Setting up ctc/ctc10.2 ...
+
+   toolbase[dgs]:/ctc/ctc10.2
+
+Prop     Cur Version Name Notes                                                                                                                                                 
+----     --- ------- ---- -----                                                                                                                                                 
+TV-p---1     ctc10.2 ctc  Testwell Oy CTC++ System Version 10.2 (Merging multiple reports into a single report feature and CTC_Validation_Report check added)\n;Verifysoft Techn...
+
+[tini] Cloning environment of Toolbase Console with PID=24336/20261118142124 ...
+[tini] Performing initialization tasks on 'ctc/ctc10.2'...
++ Pre-init check...
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem # Initializing CTC.. 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CURRENT_CTC_VERSION=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTCHOME=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTCHOME C:\toolbase\ctc\ctc10.2 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTC_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTC_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTCPOST_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTCPOST_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_ANY2MEM_EXEC_PATH=C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_ANY2MEM_EXEC_PATH C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MDG1_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MDG1_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini" 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MEDC17_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini  
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MEDC17_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini"  
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_VCUP_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_VCUP_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini" 
+
+SUCCESS: Specified value was saved.
+[tini] Performing initialization tasks on 'ctc/ctc10.2'...
++ Pre-init check...
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem # Initializing CTC.. 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CURRENT_CTC_VERSION=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTCHOME=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTCHOME C:\toolbase\ctc\ctc10.2 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTC_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTC_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTCPOST_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTCPOST_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_ANY2MEM_EXEC_PATH=C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_ANY2MEM_EXEC_PATH C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MDG1_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MDG1_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini" 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MEDC17_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini  
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MEDC17_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini"  
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_VCUP_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_VCUP_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini" 
+
+SUCCESS: Specified value was saved.
+c:\toolbase\bcu\2.6.0\src\resource.rc
+My\my_main.c
+In file included from My/my_main.c:11:
+My/my_stubs.h:33:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   33 | extern void Mo_Fault_Injection_CplChk();
+      | ^~~~~~
+My/my_stubs.h:34:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   34 | extern void Mo_Fault_Injection_VldFloatChk();
+      | ^~~~~~
+My/my_stubs.h:35:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   35 | extern void MonEgyChrgnInlet_Inp_Proc();
+      | ^~~~~~
+My/my_stubs.h:36:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   36 | extern void MonEgyChrgnInlet_Inp_Proc_Ini();
+      | ^~~~~~
+In file included from My/my_main.c:12:
+My/..\Migration\testcase\my_testcases.c:55:2: error: #error "Project platform does not uniquely match a TPT execution item"
+   55 | #error "Project platform does not uniquely match a TPT execution item"
+      |  ^~~~~
+My/..\Migration\testcase\my_testcases.c: In function 'Get_embedded_data':
+My/..\Migration\testcase\my_testcases.c:147:27: warning: 'sizeof' on array function parameter 'embedded_array' will return size of 'double (*)[2]' [-Wsizeof-array-argument]
+  147 |     for (j = 0; j < sizeof(embedded_array) / sizeof(embedded_array[0]) - 1; j++) {
+      |                           ^
+My/..\Migration\testcase\my_testcases.c:142:54: note: declared here
+  142 | double Get_embedded_data(double current_time, double embedded_array[][2]) {
+      |                                               ~~~~~~~^~~~~~~~~~~~~~~~~~~
+My/..\Migration\testcase\my_testcases.c:152:33: warning: 'sizeof' on array function parameter 'embedded_array' will return size of 'double (*)[2]' [-Wsizeof-array-argument]
+  152 |     return embedded_array[sizeof(embedded_array) / sizeof(embedded_array[0]) - 1][1];
+      |                                 ^
+My/..\Migration\testcase\my_testcases.c:142:54: note: declared here
+  142 | double Get_embedded_data(double current_time, double embedded_array[][2]) {
+      |                                               ~~~~~~~^~~~~~~~~~~~~~~~~~~
+My/..\Migration\testcase\my_testcases.c: At top level:
+My/..\Migration\testcase\my_testcases.c:156:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  156 | void Error_Reaction_Variants_error(){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+My/..\Migration\testcase\my_testcases.c:172:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  172 | void Reset_Complements_Variants_no_error(){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from My/my_main.c:13:
+My/my_cust_proc_template.c: In function 'CallScheduler_embedded_proc':
+My/my_cust_proc_template.c:48:9: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+   48 |     int k;
+      |         ^
+CTC++ warning 35: Original compile/link command failed (-2comp)
+In file included from My/my_main.c:12:
+My/..\Migration\testcase\my_testcases.c:55:2: error: #error "Project platform does not uniquely match a TPT execution item"
+   55 | #error "Project platform does not uniquely match a TPT execution item"
+      |  ^~~~~
+CTC++ error 7: Cannot execute C or C++ preprocessor or preprocessing failed: 0x1
+mingw32-make.exe: *** [c:\toolbase\bcu\2.6.0/Makefile:700: _gen/exe_mingw_x86/my_main.o] Error 1
+mingw32-make.exe: *** Waiting for unfinished jobs....
+My\my_stubs.c
+In file included from My/my_stubs.c:9:
+My/my_stubs.h:33:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   33 | extern void Mo_Fault_Injection_CplChk();
+      | ^~~~~~
+My/my_stubs.h:34:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   34 | extern void Mo_Fault_Injection_VldFloatChk();
+      | ^~~~~~
+My/my_stubs.h:35:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   35 | extern void MonEgyChrgnInlet_Inp_Proc();
+      | ^~~~~~
+My/my_stubs.h:36:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   36 | extern void MonEgyChrgnInlet_Inp_Proc_Ini();
+      | ^~~~~~
+In file included from My/my_stubs.c:9:
+My/my_stubs.h:33:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   33 | extern void Mo_Fault_Injection_CplChk();
+      | ^~~~~~
+My/my_stubs.h:34:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   34 | extern void Mo_Fault_Injection_VldFloatChk();
+      | ^~~~~~
+My/my_stubs.h:35:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   35 | extern void MonEgyChrgnInlet_Inp_Proc();
+      | ^~~~~~
+My/my_stubs.h:36:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   36 | extern void MonEgyChrgnInlet_Inp_Proc_Ini();
+      | ^~~~~~
+Links\monegychrgninlet_inp.c
+In file included from My/my_common.h:11,
+                 from Links/monegychrgninlet_inp.c:2:
+My/my_stubs.h:33:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   33 | extern void Mo_Fault_Injection_CplChk();
+      | ^~~~~~
+My/my_stubs.h:34:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   34 | extern void Mo_Fault_Injection_VldFloatChk();
+      | ^~~~~~
+My/my_stubs.h:35:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   35 | extern void MonEgyChrgnInlet_Inp_Proc();
+      | ^~~~~~
+My/my_stubs.h:36:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   36 | extern void MonEgyChrgnInlet_Inp_Proc_Ini();
+      | ^~~~~~
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c: In function 'MonEgyChrgnInlet_Inp_Proc':
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:581:7: error: 'MonEgyChrgnDefn_flgVrntMcsInlet_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntCcsDcInlet_MoGet'?
+  581 |   if (MonEgyChrgnDefn_flgVrntMcsInlet_MoGet)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       MonEgyChrgnDefn_flgVrntCcsDcInlet_MoGet
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:581:7: note: each undeclared identifier is reported only once for each function it appears in
+In file included from c:\toolbase\bcu\2.6.0/external/mdgevo_mo/include/mofsrv_lib_ascet.h:69,
+                 from Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:201,
+                 from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:585:257: error: 'McsChrgEnaLineU_I_A' undeclared (first use in this function)
+  585 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsCtp)), (&(MonEgyChrgnInlet_uRawMcsCtpCpl)), ((MoFSrv_Lib_GetBit_U8(2U, MonEgyChrgnInlet_stSwtPreProcMcs_C)) ? MonEgyChrgnInlet_uRawMcsCtpSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(McsChrgEnaLineU_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~
+c:\toolbase\bcu\2.6.0/external/mdgevo_mo/include/mofsrv_lib_codegen_muldiv_limit.h:276:49: note: in definition of macro 'MoFSrv_Lib_MulDiv_limit_s16s16u16_s16'
+  276 |   MoFSrv_Lib_SrvB_MulDiv_S32S32S32_S16((sint32)(x), (sint32)(y), (sint32)(z))
+      |                                                 ^
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:588:257: error: 'McsInsertDetnLineU_I_A' undeclared (first use in this function)
+  588 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsPxp)), (&(MonEgyChrgnInlet_uRawMcsPxpCpl)), ((MoFSrv_Lib_GetBit_U8(3U, MonEgyChrgnInlet_stSwtPreProcMcs_C)) ? MonEgyChrgnInlet_uRawMcsPxpSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(McsInsertDetnLineU_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~~~~
+c:\toolbase\bcu\2.6.0/external/mdgevo_mo/include/mofsrv_lib_codegen_muldiv_limit.h:276:49: note: in definition of macro 'MoFSrv_Lib_MulDiv_limit_s16s16u16_s16'
+  276 |   MoFSrv_Lib_SrvB_MulDiv_S32S32S32_S16((sint32)(x), (sint32)(y), (sint32)(z))
+      |                                                 ^
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:593:7: error: 'MonEgyChrgnDefn_flgVrntMcsPlgLock_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntCcsPlgLock_MoGet'?
+  593 |   if (MonEgyChrgnDefn_flgVrntMcsPlgLock_MoGet)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       MonEgyChrgnDefn_flgVrntCcsPlgLock_MoGet
+In file included from c:\toolbase\bcu\2.6.0/external/mdgevo_mo/include/mofsrv_lib_ascet.h:69,
+                 from Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:201,
+                 from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:597:296: error: 'IntlckChrgPlg3Posn_I_A' undeclared (first use in this function); did you mean 'IntlckChrgPlgPosn_I_A'?
+  597 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsIntlckChrgPlgPosn)), (&(MonEgyChrgnInlet_uRawMcsIntlckChrgPlgPosnCpl)), ((MoFSrv_Lib_GetBit_U8(0U, MonEgyChrgnInlet_stSwtPreProcMcsPlgLock_C)) ? MonEgyChrgnInlet_uRawMcsPlgPosnSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(IntlckChrgPlg3Posn_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                                                        ^~~~~~~~~~~~~~~~~~~~~~
+c:\toolbase\bcu\2.6.0/external/mdgevo_mo/include/mofsrv_lib_codegen_muldiv_limit.h:276:49: note: in definition of macro 'MoFSrv_Lib_MulDiv_limit_s16s16u16_s16'
+  276 |   MoFSrv_Lib_SrvB_MulDiv_S32S32S32_S16((sint32)(x), (sint32)(y), (sint32)(z))
+      |                                                 ^
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:5: warning: implicit declaration of function 'MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut'; did you mean 'MonEgyChrgnInlet_flgCcsCtpDiag_MoPut'? [-Wimplicit-function-declaration]
+  606 |     MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut(Dio_Get(McsChrgEnaLineRdy2Diag_I_D));
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     MonEgyChrgnInlet_flgCcsCtpDiag_MoPut
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:54: error: 'McsChrgEnaLineRdy2Diag_I_D' undeclared (first use in this function)
+  606 |     MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut(Dio_Get(McsChrgEnaLineRdy2Diag_I_D));
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+CTC++ warning 35: Original compile/link command failed (-2comp)
+In file included from My/my_common.h:11,
+                 from Links/monegychrgninlet_inp.c:2:
+My/my_stubs.h:33:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   33 | extern void Mo_Fault_Injection_CplChk();
+      | ^~~~~~
+My/my_stubs.h:34:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   34 | extern void Mo_Fault_Injection_VldFloatChk();
+      | ^~~~~~
+My/my_stubs.h:35:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   35 | extern void MonEgyChrgnInlet_Inp_Proc();
+      | ^~~~~~
+My/my_stubs.h:36:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   36 | extern void MonEgyChrgnInlet_Inp_Proc_Ini();
+      | ^~~~~~
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c: In function 'MonEgyChrgnInlet_Inp_Proc':
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:582:24: error: 'MonEgyChrgnDefn_flgVrntMcsInlet_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntMcsInlet'?
+  582 |   {
+      |                        ^                                    
+      |                        MonEgyChrgnDefn_flgVrntMcsInlet
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:582:24: note: each undeclared identifier is reported only once for each function it appears in
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:585:346: error: 'McsChrgEnaLineU_I_A' undeclared (first use in this function)
+  585 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsCtp)), (&(MonEgyChrgnInlet_uRawMcsCtpCpl)), ((MoFSrv_Lib_GetBit_U8(2U, MonEgyChrgnInlet_stSwtPreProcMcs_C)) ? MonEgyChrgnInlet_uRawMcsCtpSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(McsChrgEnaLineU_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                                                                                                          ^~~~~~~~~~~~~~~~~~~
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:588:346: error: 'McsInsertDetnLineU_I_A' undeclared (first use in this function)
+  588 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsPxp)), (&(MonEgyChrgnInlet_uRawMcsPxpCpl)), ((MoFSrv_Lib_GetBit_U8(3U, MonEgyChrgnInlet_stSwtPreProcMcs_C)) ? MonEgyChrgnInlet_uRawMcsPxpSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(McsInsertDetnLineU_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                                                                                                          ^~~~~~~~~~~~~~~~~~~~~~
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:594:25: error: 'MonEgyChrgnDefn_flgVrntMcsPlgLock_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntMcsPlgLock'?
+  594 |   {
+      |                         ^                                      
+      |                         MonEgyChrgnDefn_flgVrntMcsPlgLock
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:597:385: error: 'IntlckChrgPlg3Posn_I_A' undeclared (first use in this function); did you mean 'ret_IntlckChrgPlgPosn_I_A'?
+  597 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsIntlckChrgPlgPosn)), (&(MonEgyChrgnInlet_uRawMcsIntlckChrgPlgPosnCpl)), ((MoFSrv_Lib_GetBit_U8(0U, MonEgyChrgnInlet_stSwtPreProcMcsPlgLock_C)) ? MonEgyChrgnInlet_uRawMcsPlgPosnSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(IntlckChrgPlg3Posn_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                                                                                                                                                                                                                                 ret_IntlckChrgPlgPosn_I_A
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:1: warning: implicit declaration of function 'MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut' [-Wimplicit-function-declaration]
+  606 |     MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut(Dio_Get(McsChrgEnaLineRdy2Diag_I_D));
+      | ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:54: error: 'McsChrgEnaLineRdy2Diag_I_D' undeclared (first use in this function)
+  606 |     MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut(Dio_Get(McsChrgEnaLineRdy2Diag_I_D));
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+CTC++ error 8: Cannot execute C or C++ compiler or compilation failed: 0x1
+mingw32-make.exe: *** [c:\toolbase\bcu\2.6.0/Makefile:699: _gen/exe_mingw_x86/monegychrgninlet_inp.o] Error 1
+My\my_pavast_stubs.c
+My/my_pavast_stubs.c: In function 'My_InitializePavastStubs':
+My/my_pavast_stubs.c:355:2: warning: implicit declaration of function 'Bcu_AddVariable_xxx'; did you mean 'Bcu_AddVariable_s'? [-Wimplicit-function-declaration]
+  355 |  Bcu_AddVariable_xxx("MonEgyChrgnInletInp_bbOut1", Output, &MonEgyChrgnInletInp_bbOut1);
+      |  ^~~~~~~~~~~~~~~~~~~
+      |  Bcu_AddVariable_s
+My/my_pavast_stubs.c: In function 'My_InitializePavastStubs':
+My/my_pavast_stubs.c:355:1: warning: implicit declaration of function 'Bcu_AddVariable_xxx'; did you mean 'Bcu_AddVariable_s'? [-Wimplicit-function-declaration]
+  355 |  Bcu_AddVariable_xxx("MonEgyChrgnInletInp_bbOut1", Output, &MonEgyChrgnInletInp_bbOut1);
+      | ^~~~~~~~~~~~~~~~~~~
+      | Bcu_AddVariable_s
+ERROR: Command has exited with code 2 
+----- Starting 'make' action -----
+Setting up ctc/ctc10.2 ...
+
+   toolbase[dgs]:/ctc/ctc10.2
+
+Prop     Cur Version Name Notes                                                                                                                                                 
+----     --- ------- ---- -----                                                                                                                                                 
+TV-p---1     ctc10.2 ctc  Testwell Oy CTC++ System Version 10.2 (Merging multiple reports into a single report feature and CTC_Validation_Report check added)\n;Verifysoft Techn...
+
+[tini] Cloning environment of Toolbase Console with PID=21076/20261118142235 ...
+[tini] Performing initialization tasks on 'ctc/ctc10.2'...
++ Pre-init check...
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem # Initializing CTC.. 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CURRENT_CTC_VERSION=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTCHOME=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTCHOME C:\toolbase\ctc\ctc10.2 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTC_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTC_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTCPOST_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTCPOST_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_ANY2MEM_EXEC_PATH=C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_ANY2MEM_EXEC_PATH C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MDG1_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MDG1_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini" 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MEDC17_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini  
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MEDC17_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini"  
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_VCUP_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_VCUP_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini" 
+
+SUCCESS: Specified value was saved.
+[tini] Performing initialization tasks on 'ctc/ctc10.2'...
++ Pre-init check...
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem # Initializing CTC.. 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CURRENT_CTC_VERSION=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTCHOME=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTCHOME C:\toolbase\ctc\ctc10.2 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTC_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTC_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTCPOST_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTCPOST_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_ANY2MEM_EXEC_PATH=C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_ANY2MEM_EXEC_PATH C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MDG1_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MDG1_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini" 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MEDC17_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini  
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MEDC17_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini"  
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_VCUP_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_VCUP_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini" 
+
+SUCCESS: Specified value was saved.
+My\my_main.c
+In file included from My/my_main.c:11:
+My/my_stubs.h:33:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   33 | extern void Mo_Fault_Injection_CplChk();
+      | ^~~~~~
+My/my_stubs.h:34:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   34 | extern void Mo_Fault_Injection_VldFloatChk();
+      | ^~~~~~
+My/my_stubs.h:35:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   35 | extern void MonEgyChrgnInlet_Inp_Proc();
+      | ^~~~~~
+My/my_stubs.h:36:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   36 | extern void MonEgyChrgnInlet_Inp_Proc_Ini();
+      | ^~~~~~
+In file included from My/my_main.c:12:
+My/..\Migration\testcase\my_testcases.c:55:2: error: #error "Project platform does not uniquely match a TPT execution item"
+   55 | #error "Project platform does not uniquely match a TPT execution item"
+      |  ^~~~~
+My/..\Migration\testcase\my_testcases.c: In function 'Get_embedded_data':
+My/..\Migration\testcase\my_testcases.c:147:27: warning: 'sizeof' on array function parameter 'embedded_array' will return size of 'double (*)[2]' [-Wsizeof-array-argument]
+  147 |     for (j = 0; j < sizeof(embedded_array) / sizeof(embedded_array[0]) - 1; j++) {
+      |                           ^
+My/..\Migration\testcase\my_testcases.c:142:54: note: declared here
+  142 | double Get_embedded_data(double current_time, double embedded_array[][2]) {
+      |                                               ~~~~~~~^~~~~~~~~~~~~~~~~~~
+My/..\Migration\testcase\my_testcases.c:152:33: warning: 'sizeof' on array function parameter 'embedded_array' will return size of 'double (*)[2]' [-Wsizeof-array-argument]
+  152 |     return embedded_array[sizeof(embedded_array) / sizeof(embedded_array[0]) - 1][1];
+      |                                 ^
+My/..\Migration\testcase\my_testcases.c:142:54: note: declared here
+  142 | double Get_embedded_data(double current_time, double embedded_array[][2]) {
+      |                                               ~~~~~~~^~~~~~~~~~~~~~~~~~~
+My/..\Migration\testcase\my_testcases.c: At top level:
+My/..\Migration\testcase\my_testcases.c:156:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  156 | void Error_Reaction_Variants_error(){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+My/..\Migration\testcase\my_testcases.c:172:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  172 | void Reset_Complements_Variants_no_error(){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from My/my_main.c:13:
+My/my_cust_proc_template.c: In function 'CallScheduler_embedded_proc':
+My/my_cust_proc_template.c:48:9: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+   48 |     int k;
+      |         ^
+CTC++ warning 35: Original compile/link command failed (-2comp)
+In file included from My/my_main.c:12:
+My/..\Migration\testcase\my_testcases.c:55:2: error: #error "Project platform does not uniquely match a TPT execution item"
+   55 | #error "Project platform does not uniquely match a TPT execution item"
+      |  ^~~~~
+CTC++ error 7: Cannot execute C or C++ preprocessor or preprocessing failed: 0x1
+mingw32-make.exe: *** [c:\toolbase\bcu\2.6.0/Makefile:700: _gen/exe_mingw_x86/my_main.o] Error 1
+mingw32-make.exe: *** Waiting for unfinished jobs....
+Links\monegychrgninlet_inp.c
+In file included from My/my_common.h:11,
+                 from Links/monegychrgninlet_inp.c:2:
+My/my_stubs.h:33:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   33 | extern void Mo_Fault_Injection_CplChk();
+      | ^~~~~~
+My/my_stubs.h:34:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   34 | extern void Mo_Fault_Injection_VldFloatChk();
+      | ^~~~~~
+My/my_stubs.h:35:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   35 | extern void MonEgyChrgnInlet_Inp_Proc();
+      | ^~~~~~
+My/my_stubs.h:36:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   36 | extern void MonEgyChrgnInlet_Inp_Proc_Ini();
+      | ^~~~~~
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c: In function 'MonEgyChrgnInlet_Inp_Proc':
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:581:7: error: 'MonEgyChrgnDefn_flgVrntMcsInlet_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntCcsDcInlet_MoGet'?
+  581 |   if (MonEgyChrgnDefn_flgVrntMcsInlet_MoGet)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       MonEgyChrgnDefn_flgVrntCcsDcInlet_MoGet
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:581:7: note: each undeclared identifier is reported only once for each function it appears in
+In file included from c:\toolbase\bcu\2.6.0/external/mdgevo_mo/include/mofsrv_lib_ascet.h:69,
+                 from Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:201,
+                 from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:585:257: error: 'McsChrgEnaLineU_I_A' undeclared (first use in this function)
+  585 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsCtp)), (&(MonEgyChrgnInlet_uRawMcsCtpCpl)), ((MoFSrv_Lib_GetBit_U8(2U, MonEgyChrgnInlet_stSwtPreProcMcs_C)) ? MonEgyChrgnInlet_uRawMcsCtpSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(McsChrgEnaLineU_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~
+c:\toolbase\bcu\2.6.0/external/mdgevo_mo/include/mofsrv_lib_codegen_muldiv_limit.h:276:49: note: in definition of macro 'MoFSrv_Lib_MulDiv_limit_s16s16u16_s16'
+  276 |   MoFSrv_Lib_SrvB_MulDiv_S32S32S32_S16((sint32)(x), (sint32)(y), (sint32)(z))
+      |                                                 ^
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:588:257: error: 'McsInsertDetnLineU_I_A' undeclared (first use in this function)
+  588 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsPxp)), (&(MonEgyChrgnInlet_uRawMcsPxpCpl)), ((MoFSrv_Lib_GetBit_U8(3U, MonEgyChrgnInlet_stSwtPreProcMcs_C)) ? MonEgyChrgnInlet_uRawMcsPxpSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(McsInsertDetnLineU_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~~~~
+c:\toolbase\bcu\2.6.0/external/mdgevo_mo/include/mofsrv_lib_codegen_muldiv_limit.h:276:49: note: in definition of macro 'MoFSrv_Lib_MulDiv_limit_s16s16u16_s16'
+  276 |   MoFSrv_Lib_SrvB_MulDiv_S32S32S32_S16((sint32)(x), (sint32)(y), (sint32)(z))
+      |                                                 ^
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:593:7: error: 'MonEgyChrgnDefn_flgVrntMcsPlgLock_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntCcsPlgLock_MoGet'?
+  593 |   if (MonEgyChrgnDefn_flgVrntMcsPlgLock_MoGet)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       MonEgyChrgnDefn_flgVrntCcsPlgLock_MoGet
+In file included from c:\toolbase\bcu\2.6.0/external/mdgevo_mo/include/mofsrv_lib_ascet.h:69,
+                 from Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:201,
+                 from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:597:296: error: 'IntlckChrgPlg3Posn_I_A' undeclared (first use in this function); did you mean 'IntlckChrgPlgPosn_I_A'?
+  597 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsIntlckChrgPlgPosn)), (&(MonEgyChrgnInlet_uRawMcsIntlckChrgPlgPosnCpl)), ((MoFSrv_Lib_GetBit_U8(0U, MonEgyChrgnInlet_stSwtPreProcMcsPlgLock_C)) ? MonEgyChrgnInlet_uRawMcsPlgPosnSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(IntlckChrgPlg3Posn_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                                                        ^~~~~~~~~~~~~~~~~~~~~~
+c:\toolbase\bcu\2.6.0/external/mdgevo_mo/include/mofsrv_lib_codegen_muldiv_limit.h:276:49: note: in definition of macro 'MoFSrv_Lib_MulDiv_limit_s16s16u16_s16'
+  276 |   MoFSrv_Lib_SrvB_MulDiv_S32S32S32_S16((sint32)(x), (sint32)(y), (sint32)(z))
+      |                                                 ^
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:5: warning: implicit declaration of function 'MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut'; did you mean 'MonEgyChrgnInlet_flgCcsCtpDiag_MoPut'? [-Wimplicit-function-declaration]
+  606 |     MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut(Dio_Get(McsChrgEnaLineRdy2Diag_I_D));
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     MonEgyChrgnInlet_flgCcsCtpDiag_MoPut
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:54: error: 'McsChrgEnaLineRdy2Diag_I_D' undeclared (first use in this function)
+  606 |     MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut(Dio_Get(McsChrgEnaLineRdy2Diag_I_D));
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+CTC++ warning 35: Original compile/link command failed (-2comp)
+In file included from My/my_common.h:11,
+                 from Links/monegychrgninlet_inp.c:2:
+My/my_stubs.h:33:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   33 | extern void Mo_Fault_Injection_CplChk();
+      | ^~~~~~
+My/my_stubs.h:34:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   34 | extern void Mo_Fault_Injection_VldFloatChk();
+      | ^~~~~~
+My/my_stubs.h:35:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   35 | extern void MonEgyChrgnInlet_Inp_Proc();
+      | ^~~~~~
+My/my_stubs.h:36:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   36 | extern void MonEgyChrgnInlet_Inp_Proc_Ini();
+      | ^~~~~~
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c: In function 'MonEgyChrgnInlet_Inp_Proc':
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:582:24: error: 'MonEgyChrgnDefn_flgVrntMcsInlet_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntMcsInlet'?
+  582 |   {
+      |                        ^                                    
+      |                        MonEgyChrgnDefn_flgVrntMcsInlet
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:582:24: note: each undeclared identifier is reported only once for each function it appears in
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:585:346: error: 'McsChrgEnaLineU_I_A' undeclared (first use in this function)
+  585 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsCtp)), (&(MonEgyChrgnInlet_uRawMcsCtpCpl)), ((MoFSrv_Lib_GetBit_U8(2U, MonEgyChrgnInlet_stSwtPreProcMcs_C)) ? MonEgyChrgnInlet_uRawMcsCtpSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(McsChrgEnaLineU_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                                                                                                          ^~~~~~~~~~~~~~~~~~~
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:588:346: error: 'McsInsertDetnLineU_I_A' undeclared (first use in this function)
+  588 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsPxp)), (&(MonEgyChrgnInlet_uRawMcsPxpCpl)), ((MoFSrv_Lib_GetBit_U8(3U, MonEgyChrgnInlet_stSwtPreProcMcs_C)) ? MonEgyChrgnInlet_uRawMcsPxpSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(McsInsertDetnLineU_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                                                                                                          ^~~~~~~~~~~~~~~~~~~~~~
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:594:25: error: 'MonEgyChrgnDefn_flgVrntMcsPlgLock_MoGet' undeclared (first use in this function); did you mean 'MonEgyChrgnDefn_flgVrntMcsPlgLock'?
+  594 |   {
+      |                         ^                                      
+      |                         MonEgyChrgnDefn_flgVrntMcsPlgLock
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:597:385: error: 'IntlckChrgPlg3Posn_I_A' undeclared (first use in this function); did you mean 'ret_IntlckChrgPlgPosn_I_A'?
+  597 |     (MoFSrv_Lib_MoWriteS16((&(MonEgyChrgnInlet_uRawMcsIntlckChrgPlgPosn)), (&(MonEgyChrgnInlet_uRawMcsIntlckChrgPlgPosnCpl)), ((MoFSrv_Lib_GetBit_U8(0U, MonEgyChrgnInlet_stSwtPreProcMcsPlgLock_C)) ? MonEgyChrgnInlet_uRawMcsPlgPosnSubVal_C : MoFSrv_Lib_MulDiv_limit_s16s16u16_s16(Adc_GetRawRatio(IntlckChrgPlg3Posn_I_A), MonEgyChrgnInlet_facAdcCnv_C, MoFSrv_Lib_shiftLeft_U16(MonEgyChrgnInlet_nrBitShift_C, 1U)))));
+      |                                                                                                                                                                                                                                                                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                                                                                                                                                                                                                                 ret_IntlckChrgPlgPosn_I_A
+In file included from Links/monegychrgninlet_inp.c:3:
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:1: warning: implicit declaration of function 'MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut' [-Wimplicit-function-declaration]
+  606 |     MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut(Dio_Get(McsChrgEnaLineRdy2Diag_I_D));
+      | ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Links/../../../MonEgyChrgnInlet_Inp_1.11.0/MonEgyChrgnInlet_Inp_1.11.0/_src/monegychrgninlet_inp.c:606:54: error: 'McsChrgEnaLineRdy2Diag_I_D' undeclared (first use in this function)
+  606 |     MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut(Dio_Get(McsChrgEnaLineRdy2Diag_I_D));
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+CTC++ error 8: Cannot execute C or C++ compiler or compilation failed: 0x1
+mingw32-make.exe: *** [c:\toolbase\bcu\2.6.0/Makefile:700: _gen/exe_mingw_x86/monegychrgninlet_inp.o] Error 1
+My\my_pavast_stubs.c
+My/my_pavast_stubs.c: In function 'My_InitializePavastStubs':
+My/my_pavast_stubs.c:355:60: warning: passing argument 3 of 'Bcu_AddVariable_u16' from incompatible pointer type [-Wincompatible-pointer-types]
+  355 |  Bcu_AddVariable_u16("MonEgyChrgnInletInp_bbOut1", Output, &MonEgyChrgnInletInp_bbOut1);
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                            |
+      |                                                            int *
+In file included from c:\toolbase\bcu\2.6.0/include/bcu.h:10,
+                 from My/my_pavast_stubs.c:6:
+c:\toolbase\bcu\2.6.0/include/bcu_api.h:623:96: note: expected 'uint16_t *' {aka 'short unsigned int *'} but argument is of type 'int *'
+  623 | Bcu_Scalar_t* Bcu_AddVariable_u16(const char* name, Bcu_ObjectDirection_t direction, uint16_t* variable);
+      |                                                                                      ~~~~~~~~~~^~~~~~~~
+My/my_pavast_stubs.c:358:59: warning: passing argument 3 of 'Bcu_AddVariable_u8' from incompatible pointer type [-Wincompatible-pointer-types]
+  358 |  Bcu_AddVariable_u8("MonEgyChrgnInletInp_bbOut2", Output, &MonEgyChrgnInletInp_bbOut2);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                           |
+      |                                                           int *
+In file included from c:\toolbase\bcu\2.6.0/include/bcu.h:10,
+                 from My/my_pavast_stubs.c:6:
+c:\toolbase\bcu\2.6.0/include/bcu_api.h:621:94: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int *'
+  621 | Bcu_Scalar_t* Bcu_AddVariable_u8(const char* name, Bcu_ObjectDirection_t direction, uint8_t* variable);
+      |                                                                                     ~~~~~~~~~^~~~~~~~
+My/my_pavast_stubs.c: In function 'My_InitializePavastStubs':
+My/my_pavast_stubs.c:355:63: warning: passing argument 3 of 'Bcu_AddVariable_u16' from incompatible pointer type [-Wincompatible-pointer-types]
+  355 |  Bcu_AddVariable_u16("MonEgyChrgnInletInp_bbOut1", Output, &MonEgyChrgnInletInp_bbOut1);
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~  
+      |                                                               |
+      |                                                               int *
+In file included from c:\toolbase\bcu\2.6.0/include/bcu.h:10,
+                 from My/my_pavast_stubs.c:6:
+c:\toolbase\bcu\2.6.0/include/bcu_api.h:623:103: note: expected 'uint16_t *' {aka 'short unsigned int *'} but argument is of type 'int *'
+  623 | Bcu_Scalar_t* Bcu_AddVariable_u16(const char* name, Bcu_ObjectDirection_t direction, uint16_t* variable);
+      |                                                                                            ~~~~~~~~~~~^~~     
+My/my_pavast_stubs.c:358:62: warning: passing argument 3 of 'Bcu_AddVariable_u8' from incompatible pointer type [-Wincompatible-pointer-types]
+  358 |  Bcu_AddVariable_u8("MonEgyChrgnInletInp_bbOut2", Output, &MonEgyChrgnInletInp_bbOut2);
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~  
+      |                                                              |
+      |                                                              int *
+In file included from c:\toolbase\bcu\2.6.0/include/bcu.h:10,
+                 from My/my_pavast_stubs.c:6:
+c:\toolbase\bcu\2.6.0/include/bcu_api.h:621:101: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int *'
+  621 | Bcu_Scalar_t* Bcu_AddVariable_u8(const char* name, Bcu_ObjectDirection_t direction, uint8_t* variable);
+      |                                                                                           ~~~~~~~~~~^~~     
+ERROR: Command has exited with code 2 
+----- Starting 'make' action -----
+Setting up ctc/ctc10.2 ...
+
+   toolbase[dgs]:/ctc/ctc10.2
+
+Prop     Cur Version Name Notes                                                                                                                                                 
+----     --- ------- ---- -----                                                                                                                                                 
+TV-p---1     ctc10.2 ctc  Testwell Oy CTC++ System Version 10.2 (Merging multiple reports into a single report feature and CTC_Validation_Report check added)\n;Verifysoft Techn...
+
+[tini] Cloning environment of Toolbase Console with PID=19308/20261118180615 ...
+[tini] Performing initialization tasks on 'ctc/ctc10.2'...
++ Pre-init check...
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem # Initializing CTC.. 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CURRENT_CTC_VERSION=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTCHOME=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTCHOME C:\toolbase\ctc\ctc10.2 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTC_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTC_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTCPOST_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTCPOST_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_ANY2MEM_EXEC_PATH=C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_ANY2MEM_EXEC_PATH C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MDG1_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MDG1_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini" 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MEDC17_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini  
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MEDC17_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini"  
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_VCUP_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_VCUP_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini" 
+
+SUCCESS: Specified value was saved.
+[tini] Performing initialization tasks on 'ctc/ctc10.2'...
++ Pre-init check...
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem # Initializing CTC.. 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>rem ################################################### 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CURRENT_CTC_VERSION=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTCHOME=C:\toolbase\ctc\ctc10.2 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTCHOME C:\toolbase\ctc\ctc10.2 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTC_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTC_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctc.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_CTCPOST_EXEC_PATH=C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_CTCPOST_EXEC_PATH C:\toolbase\ctc\ctc10.2\ctcpost.exe 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET TB_ANY2MEM_EXEC_PATH=C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX TB_ANY2MEM_EXEC_PATH C:\toolbase\ctc\ctc10.2\any2mem.bat 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MDG1_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MDG1_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_ifx.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_jdp.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-ghs.ini;C:\toolbase\ctc\ctc10.2\RB_compiler_configs\ctc-tasking.ini" 
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_MEDC17_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini  
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_MEDC17_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\hightec_tricore.ini"  
+
+SUCCESS: Specified value was saved.
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SET CTC_VCUP_COMPFLAGS=-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini 
+
+C:\Users\NSI9COB\Downloads\MonEgyChrgnInlet_Inp\MonEgyChrgnInlet_Inp>SETX CTC_VCUP_COMPFLAGS "-c C:\toolbase\ctc\ctc10.2\RB_compiler_configs\qnx_qcc.ini" 
+
+SUCCESS: Specified value was saved.
+Links\monegychrgninlet_inp.c
+CTC++ error 15: Licence problem: cannot check out FLEXlm license
+License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Feature:       NTCTC
+Hostname:      si0vmc0039.de.bosch.com
+License path:  1714@si0vmc0039.de.bosch.com;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)"
+For further information, refer to the FlexNet Licensing documentation,
+available at "www.flexerasoftware.com".
+mingw32-make.exe: *** [c:\toolbase\bcu\2.6.0/Makefile:700: _gen/exe_mingw_x86/monegychrgninlet_inp.o] Error 1
+mingw32-make.exe: *** Waiting for unfinished jobs....
+My\my_main.c
+CTC++ error 15: Licence problem: cannot check out FLEXlm license
+License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Feature:       NTCTC
+Hostname:      si0vmc0039.de.bosch.com
+License path:  1714@si0vmc0039.de.bosch.com;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)"
+For further information, refer to the FlexNet Licensing documentation,
+available at "www.flexerasoftware.com".
+mingw32-make.exe: *** [c:\toolbase\bcu\2.6.0/Makefile:700: _gen/exe_mingw_x86/my_main.o] Error 1
+ERROR: Command has exited with code 2 

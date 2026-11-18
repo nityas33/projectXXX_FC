@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="EXE_Debug|Win32">
+      <Configuration>EXE_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EXE_Debug|x64">
+      <Configuration>EXE_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EXE_Release|Win32">
+      <Configuration>EXE_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EXE_Release|x64">
+      <Configuration>EXE_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FMI2_Debug|Win32">
+      <Configuration>FMI2_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FMI2_Debug|x64">
+      <Configuration>FMI2_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FMI2_Release|Win32">
+      <Configuration>FMI2_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FMI2_Release|x64">
+      <Configuration>FMI2_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FMI3_Debug|Win32">
+      <Configuration>FMI3_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FMI3_Debug|x64">
+      <Configuration>FMI3_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FMI3_Release|Win32">
+      <Configuration>FMI3_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FMI3_Release|x64">
+      <Configuration>FMI3_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MEX_Debug|Win32">
+      <Configuration>MEX_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MEX_Debug|x64">
+      <Configuration>MEX_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MEX_Release|Win32">
+      <Configuration>MEX_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MEX_Release|x64">
+      <Configuration>MEX_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="PY_Debug|Win32">
+      <Configuration>PY_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="PY_Debug|x64">
+      <Configuration>PY_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="PY_Release|Win32">
+      <Configuration>PY_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="PY_Release|x64">
+      <Configuration>PY_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TPT_Debug|Win32">
+      <Configuration>TPT_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TPT_Debug|x64">
+      <Configuration>TPT_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TPT_Release|Win32">
+      <Configuration>TPT_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TPT_Release|x64">
+      <Configuration>TPT_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9F7DB392-0D86-4B99-86A1-883A6FB39298}</ProjectGuid>
+    <RootNamespace>bcu</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>bcu</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PY_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PY_Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PY_Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PY_Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings"></ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_exe_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_exe_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_exe_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_exe_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_fmi2_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_fmi2_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_fmi2_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_fmi2_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_fmi3_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_fmi3_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_fmi3_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_fmi3_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_mex_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_mex_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_mex_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_mex_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='PY_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_py_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='PY_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_py_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='PY_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_py_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='PY_Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_py_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_tpt_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_tpt_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_tpt_x86.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="bcu.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_framework.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_tpt_x64.props" />
+    <Import Project="$(BcuFrameworkDir)bcu_target_build_release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Debug|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Debug|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Release|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Release|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Debug|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Debug|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Release|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Release|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Debug|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Debug|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Release|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Release|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Debug|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+    <TargetExt>.mexw32</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Debug|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+    <TargetExt>.mexw64</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Release|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+    <TargetExt>.mexw32</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Release|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+    <TargetExt>.mexw64</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PY_Debug|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+    <TargetExt>.pyd</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PY_Debug|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+    <TargetExt>.pyd</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PY_Release|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+    <TargetExt>.pyd</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PY_Release|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+    <TargetExt>.pyd</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Debug|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Debug|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Release|Win32'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Release|x64'">
+    <OutDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)_gen\$(Configuration)_$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EXE_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>bcu.cmd -fmi2 -msvc -m32 -debug fmu</Command>
+      <Message>Creating FMU</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>bcu.cmd -fmi2 -msvc -m64 -debug fmu</Command>
+      <Message>Creating FMU</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>bcu.cmd -fmi2 -msvc -m32 -release fmu</Command>
+      <Message>Creating FMU</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FMI2_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>bcu.cmd -fmi2 -msvc -m64 -release fmu</Command>
+      <Message>Creating FMU</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>bcu.cmd -fmi3 -msvc -m32 -debug fmu</Command>
+      <Message>Creating FMU</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>bcu.cmd -fmi3 -msvc -m64 -debug fmu</Command>
+      <Message>Creating FMU</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>bcu.cmd -fmi3 -msvc -m32 -release fmu</Command>
+      <Message>Creating FMU</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FMI3_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>bcu.cmd -fmi3 -msvc -m64 -release fmu</Command>
+      <Message>Creating FMU</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MEX_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PY_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PY_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PY_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PY_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TPT_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>My;Links;Dummies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(BcuFrameworkDir)bcu_framework.vcxproj">
+      <Project>{f443230a-74df-49a0-8658-ff47c4d9ce21}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="My\my_main.c" />
+    <ClCompile Include="My\my_stubs.c" />
+    <ClCompile Include="My\my_pavast_stubs.c" />
+    <ClCompile Include="Links\monegychrgninlet_inp.c" />
+    <ClCompile Include="..\..\MonEgyChrgnInlet_Inp_1.11.0\MonEgyChrgnInlet_Inp_1.11.0\_src\monegychrgninlet_inp.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='EXE_Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='EXE_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='EXE_Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='EXE_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='FMI2_Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='FMI2_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='FMI2_Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='FMI2_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='FMI3_Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='FMI3_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='FMI3_Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='FMI3_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MEX_Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MEX_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MEX_Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MEX_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='PY_Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='PY_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='PY_Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='PY_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='TPT_Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='TPT_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='TPT_Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='TPT_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="My\my_common.h" />
+    <ClInclude Include="My\my_config.h" />
+    <ClInclude Include="My\my_stubs.h" />
+    <ClInclude Include="My\my_pavast_stubs.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets"></ImportGroup>
+  <ItemGroup>
+    <None Include="..\..\MonEgyChrgnInlet_Inp_1.11.0\MonEgyChrgnInlet_Inp_1.11.0\_src\monegychrgninlet_inp_ascet_confdata.xml" />
+    <None Include="..\..\MonEgyChrgnInlet_Inp_1.11.0\MonEgyChrgnInlet_Inp_1.11.0\_src\monegychrgninlet_inp_pavast.xml" />
+  </ItemGroup>
+</Project>

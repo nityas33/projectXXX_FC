@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1 My">
+      <UniqueIdentifier>{4fc737f1-c7a5-4376-a066-2a32d752a2ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2 Links">
+      <UniqueIdentifier>{93995380-89bd-4b04-88eb-625fbe52ebfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3 Sources">
+      <UniqueIdentifier>{a17d8e2d-94fa-4e39-957f-98b2f64fa77e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="My\my_main.c">
+      <Filter>1 My</Filter>
+    </ClCompile>
+    <ClCompile Include="My\my_stubs.c">
+      <Filter>1 My</Filter>
+    </ClCompile>
+    <ClCompile Include="My\my_pavast_stubs.c">
+      <Filter>1 My</Filter>
+    </ClCompile>
+    <ClCompile Include="Links\monegychrgninlet_inp.c">
+      <Filter>2 Links</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MonEgyChrgnInlet_Inp_1.11.0\MonEgyChrgnInlet_Inp_1.11.0\_src\monegychrgninlet_inp.c">
+      <Filter>3 Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(BcuFrameworkDir)\src\resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="My\my_common.h">
+      <Filter>1 My</Filter>
+    </ClInclude>
+    <ClInclude Include="My\my_config.h">
+      <Filter>1 My</Filter>
+    </ClInclude>
+    <ClInclude Include="My\my_stubs.h">
+      <Filter>1 My</Filter>
+    </ClInclude>
+    <ClInclude Include="My\my_pavast_stubs.h">
+      <Filter>1 My</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\MonEgyChrgnInlet_Inp_1.11.0\MonEgyChrgnInlet_Inp_1.11.0\_src\monegychrgninlet_inp_ascet_confdata.xml">
+      <Filter>3 Sources</Filter>
+    </None>
+    <None Include="..\..\MonEgyChrgnInlet_Inp_1.11.0\MonEgyChrgnInlet_Inp_1.11.0\_src\monegychrgninlet_inp_pavast.xml">
+      <Filter>3 Sources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

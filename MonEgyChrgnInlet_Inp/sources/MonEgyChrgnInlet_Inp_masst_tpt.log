@@ -1,0 +1,1205 @@
+INFO: File Found              : C:/Users/VJB3KOR/Desktop/TASK/New folder (2)/MonEgyChrgnInlet_Inp/sources\MonEgyChrgnInlet_Inp_pavast.xml
+INFO: Found FC name           : MonEgyChrgnInlet_Inp
+####################################################################
+######            TPT FILE generation  Started                ######
+####################################################################
+####################################################################
+######             Read_PaVaSt_Owned_Procs started            ######
+####################################################################
+INFO: Found owned proc		           : MonEgyChrgnInlet_Inp_Proc
+INFO: Owned proc got a PFC-ID           : MONEGYCHRGNINLET_INP_PFC_ID
+INFO: Found owned proc		           : MonEgyChrgnInlet_Inp_Proc_Ini
+INFO: Check for accessed variables for proc: MonEgyChrgnInlet_Inp_Proc
+INFO: Found accessed variable              : MonEgyChrgnDefn_flgVrntCcsAcInlet
+INFO: Found accessed variable              : MonEgyChrgnDefn_flgVrntCcsDcInlet
+INFO: Found accessed variable              : MonEgyChrgnDefn_flgVrntCcsPlgLock
+INFO: Found accessed variable              : MonEgyChrgnDefn_flgVrntChademoInlet
+INFO: Found accessed variable              : MonEgyChrgnDefn_flgVrntChinaAcInlet
+INFO: Found accessed variable              : MonEgyChrgnDefn_flgVrntChinaDcInlet
+INFO: Found accessed variable              : MonEgyChrgnInletInp_bbOut1
+INFO: Found accessed variable              : MonEgyChrgnInletInp_bbOut1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInletInp_bbOut2
+INFO: Found accessed variable              : MonEgyChrgnInletInp_bbOut2Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_facCorrUBatt
+INFO: Found accessed variable              : MonEgyChrgnInlet_facCorrUBattCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgCcsCtpDiag
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgChademoCtp1
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgChademoCtp1Diag
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgChademoCtp3Diag
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgChademoCtp3Ena
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgChademoPxpDiag
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgChademoPxpEna
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgChinaAcCtpDiag
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgChinaDcAux1
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgChinaDcCc1Diag
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgChinaDcCc2Diag
+INFO: Found accessed variable              : MonEgyChrgnInlet_flgChinaDcCc2Ena
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmCcsCtp
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmCcsCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmCcsCtpLoc
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmCcsCtpLocCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmChinaAcCtp
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmChinaAcCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmChinaAcCtpLoc
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmChinaAcCtpLocCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdCcsCtp
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdCcsCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdCcsCtpLoc
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdCcsCtpLocCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdChinaAcCtp
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdChinaAcCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdChinaAcCtpLoc
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdChinaAcCtpLocCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChademoCtp1
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChademoCtp1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChademoCtp3
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChademoCtp3Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChademoPxP
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChademoPxPCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChinaDcCc1
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChinaDcCc1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChinaDcCc2
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChinaDcCc2Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uBattAct
+INFO: Found accessed variable              : MonEgyChrgnInlet_uBattActCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawCcsCtp
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawCcsCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawCcsIntlckChrgPlgPosn
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawCcsIntlckChrgPlgPosnCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawCcsPxp
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawCcsPxpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoCtp1
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoCtp1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoCtp3
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoCtp3Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoPxp
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoPxpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoPxpDiagNeg
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoPxpDiagNegCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaAcCc
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaAcCcCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaAcCtp
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaAcCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcAux1
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcAux1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcCc1
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcCc1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcCc2
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcCc2Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcCc2DiagNeg
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcCc2DiagNegCpl
+INFO: Found accessed variable              : Mo_stMoC
+INFO: Found accessed variable              : Mo_stMoCCpl
+INFO: Found accessed variable              : Mo_stCplChk
+INFO: Check for accessed services for proc: MonEgyChrgnInlet_Inp_Proc
+INFO: Check for accessed variables for proc: MonEgyChrgnInlet_Inp_Proc_Ini
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmCcsCtpLocCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmChinaAcCtpLocCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdCcsCtpLocCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdChinaAcCtpLocCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChademoCtp1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChademoCtp3Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChademoPxPCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChinaDcCc1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uAdcRawChinaDcCc2Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uBattActCpl
+INFO: Found accessed variable              : MonEgyChrgnInletInp_bbOut1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInletInp_bbOut2Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_facCorrUBattCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmCcsCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_ratPwmChinaAcCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdCcsCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_tiPerdChinaAcCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawCcsCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawCcsIntlckChrgPlgPosnCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawCcsPxpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoCtp1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoCtp3Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoPxpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChademoPxpDiagNegCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaAcCcCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaAcCtpCpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcAux1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcCc1Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcCc2Cpl
+INFO: Found accessed variable              : MonEgyChrgnInlet_uRawChinaDcCc2DiagNegCpl
+INFO: Check for accessed services for proc: MonEgyChrgnInlet_Inp_Proc_Ini
+####################################################################
+######             Read_PaVaSt_Owned_Procs finished           ######
+####################################################################
+####################################################################
+######         Read_PaVaSt_Owned_Variables started            ######
+####################################################################
+INFO: Found owned section. Check for owned variables
+INFO: Found owned variable                        : MonEgyChrgnInlet_ratPwmCcsCtpLoc
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_ratPwmCcsCtpLocCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_ratPwmChinaAcCtpLoc
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_ratPwmChinaAcCtpLocCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_tiPerdCcsCtpLoc
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_tiPerdCcsCtpLocCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_tiPerdChinaAcCtpLoc
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_tiPerdChinaAcCtpLocCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uAdcRawChademoCtp1
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uAdcRawChademoCtp1Cpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uAdcRawChademoCtp3
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uAdcRawChademoCtp3Cpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uAdcRawChademoPxP
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uAdcRawChademoPxPCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uAdcRawChinaDcCc1
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uAdcRawChinaDcCc1Cpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uAdcRawChinaDcCc2
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uAdcRawChinaDcCc2Cpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uBattAct
+INFO: Found owned variable                        : MonEgyChrgnInlet_uBattActCpl
+INFO: Found owned variable                        : MonEgyChrgnInletInp_bbOut1
+INFO: Owned variable is under system condition    : ((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF>)) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)))
+INFO: Found owned variable                        : MonEgyChrgnInletInp_bbOut1Cpl
+INFO: Owned variable is under system condition    : ((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF>)) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)))
+INFO: Found owned variable                        : MonEgyChrgnInletInp_bbOut2
+INFO: Owned variable is under system condition    : ((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAANAUX_SC</SW-SYSTEMCONST-CODED-REF>)) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)))
+INFO: Found owned variable                        : MonEgyChrgnInletInp_bbOut2Cpl
+INFO: Owned variable is under system condition    : ((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAANAUX_SC</SW-SYSTEMCONST-CODED-REF>)) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)))
+INFO: Found owned variable                        : MonEgyChrgnInlet_facCorrUBatt
+INFO: Found owned variable                        : MonEgyChrgnInlet_facCorrUBattCpl
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgCcsCtpDiag
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgChademoCtp1
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgChademoCtp1Diag
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgChademoCtp3Diag
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgChademoCtp3Ena
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgChademoPxpDiag
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgChademoPxpEna
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgChinaAcCtpDiag
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgChinaDcAux1
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAANAUX_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgChinaDcCc1Diag
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgChinaDcCc2Diag
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_flgChinaDcCc2Ena
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found owned variable                        : MonEgyChrgnInlet_ratPwmCcsCtp
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_ratPwmCcsCtpCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_ratPwmChinaAcCtp
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_ratPwmChinaAcCtpCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_tiPerdCcsCtp
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_tiPerdCcsCtpCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_tiPerdChinaAcCtp
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_tiPerdChinaAcCtpCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawCcsCtp
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawCcsCtpCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawCcsIntlckChrgPlgPosn
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSPLGLOCK_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawCcsIntlckChrgPlgPosnCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSPLGLOCK_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawCcsPxp
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawCcsPxpCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChademoCtp1
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChademoCtp1Cpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChademoCtp3
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChademoCtp3Cpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChademoPxp
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChademoPxpCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChademoPxpDiagNeg
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChademoPxpDiagNegCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaAcCc
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaAcCcCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaAcCtp
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaAcCtpCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaDcAux1
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAANAUX_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaDcAux1Cpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAANAUX_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaDcCc1
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaDcCc1Cpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaDcCc2
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaDcCc2Cpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaDcCc2DiagNeg
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found owned variable                        : MonEgyChrgnInlet_uRawChinaDcCc2DiagNegCpl
+INFO: Owned variable is under system condition    : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Get remaining informations for all found variables
+INFO: Get remaining informations for variable     : MonEgyChrgnInletInp_bbOut1
+INFO: Get remaining informations for variable     : MonEgyChrgnInletInp_bbOut1Cpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInletInp_bbOut2
+INFO: Get remaining informations for variable     : MonEgyChrgnInletInp_bbOut2Cpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_facCorrUBatt
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_facCorrUBattCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgCcsCtpDiag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoCtp1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoCtp1Diag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoCtp3Diag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoCtp3Ena
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoPxpDiag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoPxpEna
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChinaAcCtpDiag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChinaDcAux1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChinaDcCc1Diag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChinaDcCc2Diag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChinaDcCc2Ena
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_ratPwmCcsCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_ratPwmCcsCtpCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_ratPwmChinaAcCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_ratPwmChinaAcCtpCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_tiPerdCcsCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_tiPerdCcsCtpCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_tiPerdChinaAcCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_tiPerdChinaAcCtpCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawCcsCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawCcsCtpCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawCcsIntlckChrgPlgPosn
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawCcsIntlckChrgPlgPosnCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawCcsPxp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawCcsPxpCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoCtp1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoCtp1Cpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoCtp3
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoCtp3Cpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoPxp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoPxpCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoPxpDiagNeg
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoPxpDiagNegCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaAcCc
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaAcCcCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaAcCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaAcCtpCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcAux1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcAux1Cpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcCc1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcCc1Cpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcCc2
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcCc2Cpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcCc2DiagNeg
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcCc2DiagNegCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_ratPwmCcsCtpLoc
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_ratPwmCcsCtpLocCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_ratPwmChinaAcCtpLoc
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_ratPwmChinaAcCtpLocCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_tiPerdCcsCtpLoc
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_tiPerdCcsCtpLocCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_tiPerdChinaAcCtpLoc
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_tiPerdChinaAcCtpLocCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uAdcRawChademoCtp1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uAdcRawChademoCtp1Cpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uAdcRawChademoCtp3
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uAdcRawChademoCtp3Cpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uAdcRawChademoPxP
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uAdcRawChademoPxPCpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uAdcRawChinaDcCc1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uAdcRawChinaDcCc1Cpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uAdcRawChinaDcCc2
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uAdcRawChinaDcCc2Cpl
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uBattAct
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uBattActCpl
+INFO: Total Owned Variables found                 : 72
+####################################################################
+######         Read_PaVaSt_Owned_Variables finished           ######
+####################################################################
+####################################################################
+######        Read_PaVaSt_Imported_Variables started          ######
+####################################################################
+INFO: Found import section. Check for imported variables
+INFO: Found imported variable                     : MonEgyChrgnDefn_flgVrntCcsAcInlet
+INFO: Import variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found imported variable                     : MonEgyChrgnDefn_flgVrntCcsDcInlet
+INFO: Import variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found imported variable                     : MonEgyChrgnDefn_flgVrntCcsPlgLock
+INFO: Import variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSPLGLOCK_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found imported variable                     : MonEgyChrgnDefn_flgVrntChademoInlet
+INFO: Import variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found imported variable                     : MonEgyChrgnDefn_flgVrntChinaAcInlet
+INFO: Import variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found imported variable                     : MonEgyChrgnDefn_flgVrntChinaDcInlet
+INFO: Import variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found imported variable                     : Mo_stMoC
+INFO: Found imported variable                     : Mo_stMoCCpl
+INFO: Found imported variable                     : Mo_stCplChk
+INFO: Get remaining informations for all found variables
+INFO: Get remaining informations for variable     : MonEgyChrgnDefn_flgVrntCcsAcInlet
+INFO: Get remaining informations for variable     : MonEgyChrgnDefn_flgVrntCcsDcInlet
+INFO: Get remaining informations for variable     : MonEgyChrgnDefn_flgVrntCcsPlgLock
+INFO: Get remaining informations for variable     : MonEgyChrgnDefn_flgVrntChademoInlet
+INFO: Get remaining informations for variable     : MonEgyChrgnDefn_flgVrntChinaAcInlet
+INFO: Get remaining informations for variable     : MonEgyChrgnDefn_flgVrntChinaDcInlet
+INFO: Get remaining informations for variable     : Mo_stMoC
+INFO: Get remaining informations for variable     : Mo_stMoCCpl
+INFO: Get remaining informations for variable     : Mo_stCplChk
+INFO: Total Import Variables found                : 9
+####################################################################
+######         Read_PaVaSt_Imported_Variables finished        ######
+####################################################################
+####################################################################
+######        Read_PaVaSt_Exported_Variables started          ######
+####################################################################
+INFO: Found Export section. Check for exported variables
+INFO: Found exported variable                     : MonEgyChrgnInletInp_bbOut1
+INFO: export variable is under system condition   : ((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF>)) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)))
+INFO: Found exported variable                     : MonEgyChrgnInletInp_bbOut2
+INFO: export variable is under system condition   : ((<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAANAUX_SC</SW-SYSTEMCONST-CODED-REF>)) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>) || (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)))
+INFO: Found exported variable                     : MonEgyChrgnInlet_facCorrUBatt
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgCcsCtpDiag
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgChademoCtp1
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgChademoCtp1Diag
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgChademoCtp3Diag
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgChademoCtp3Ena
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgChademoPxpDiag
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgChademoPxpEna
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgChinaAcCtpDiag
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgChinaDcAux1
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>) &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAANAUX_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgChinaDcCc1Diag
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgChinaDcCc2Diag
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_flgChinaDcCc2Ena
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (!<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found exported variable                     : MonEgyChrgnInlet_ratPwmCcsCtp
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_ratPwmChinaAcCtp
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_tiPerdCcsCtp
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_tiPerdChinaAcCtp
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawCcsCtp
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawCcsIntlckChrgPlgPosn
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSPLGLOCK_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawCcsPxp
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSACINLET_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CCSDCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawChademoCtp1
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOANCTPIF_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawChademoCtp3
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawChademoPxp
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawChademoPxpDiagNeg
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHADEMOINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawChinaAcCc
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawChinaAcCtp
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAACINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawChinaDcAux1
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINAANAUX_SC</SW-SYSTEMCONST-CODED-REF> || <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>))
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawChinaDcCc1
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawChinaDcCc2
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Found exported variable                     : MonEgyChrgnInlet_uRawChinaDcCc2DiagNeg
+INFO: export variable is under system condition   : (<SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHINADCINLET_SC</SW-SYSTEMCONST-CODED-REF> &amp;&amp; <SW-SYSTEMCONST-CODED-REF>CHRGNFCTSFTY_CHAXHWMODL_SC</SW-SYSTEMCONST-CODED-REF>)
+INFO: Get remaining informations for all found variables
+INFO: Get remaining informations for variable     : MonEgyChrgnInletInp_bbOut1
+INFO: Get remaining informations for variable     : MonEgyChrgnInletInp_bbOut2
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_facCorrUBatt
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgCcsCtpDiag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoCtp1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoCtp1Diag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoCtp3Diag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoCtp3Ena
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoPxpDiag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChademoPxpEna
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChinaAcCtpDiag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChinaDcAux1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChinaDcCc1Diag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChinaDcCc2Diag
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_flgChinaDcCc2Ena
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_ratPwmCcsCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_ratPwmChinaAcCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_tiPerdCcsCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_tiPerdChinaAcCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawCcsCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawCcsIntlckChrgPlgPosn
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawCcsPxp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoCtp1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoCtp3
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoPxp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChademoPxpDiagNeg
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaAcCc
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaAcCtp
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcAux1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcCc1
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcCc2
+INFO: Get remaining informations for variable     : MonEgyChrgnInlet_uRawChinaDcCc2DiagNeg
+INFO: Total Export Variables found                : 32
+####################################################################
+######         Read_PaVaSt_Exported_Variables finished        ######
+####################################################################
+####################################################################
+######    Read_PaVaSt_Owned_Calibration_Parameters started    ######
+####################################################################
+INFO: Found Calibration section: search for Owned parameters
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_facAdcCnvBatt_C
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_facAdcCnv_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_facAdcToPinCnv_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_facCorrUBattSubVal_C
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgCcsCtpDiagSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgChademoCtp1DiagSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgChademoCtp1SubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgChademoCtp3DiagSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgChademoCtp3EnaSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgChademoPxpDiagSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgChademoPxpEnaSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgChinaAcCtpDiagSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgChinaDcAux1SubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgChinaDcCc1DiagSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgChinaDcCc2DiagSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_flgChinaDcCc2EnaSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_nrBitShiftBatt_C
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_nrBitShift_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_ratPwmCcsCtpSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_ratPwmChinaAcCtpSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_stSwtPreProcBatt_C
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_stSwtPreProcCcsPlgLock_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_stSwtPreProcCcs_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_stSwtPreProcChademo_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_stSwtPreProcChinaAc_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_stSwtPreProcChinaDc_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_tiPerdCcsCtpSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_tiPerdChinaAcCtpSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uBattNom_C
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawCcsCtpSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawCcsPlgPosnSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawCcsPxpSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawChademoCtp1SubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawChademoCtp3SubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawChademoPxpDiagNegSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawChademoPxpSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawChinaAcCcSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawChinaAcCtpSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawChinaDcAux1SubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawChinaDcCc1SubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawChinaDcCc2DiagNegSubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Found Owned Calibration Parameter : MonEgyChrgnInlet_uRawChinaDcCc2SubVal_C
+INFO: Owned Calibration Parameter is under system condition : 
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_facAdcCnvBatt_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_facAdcCnv_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_facAdcToPinCnv_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_facCorrUBattSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgCcsCtpDiagSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgChademoCtp1DiagSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgChademoCtp1SubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgChademoCtp3DiagSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgChademoCtp3EnaSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgChademoPxpDiagSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgChademoPxpEnaSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgChinaAcCtpDiagSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgChinaDcAux1SubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgChinaDcCc1DiagSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgChinaDcCc2DiagSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_flgChinaDcCc2EnaSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_nrBitShiftBatt_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_nrBitShift_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_ratPwmCcsCtpSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_ratPwmChinaAcCtpSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_stSwtPreProcBatt_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_stSwtPreProcCcsPlgLock_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_stSwtPreProcCcs_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_stSwtPreProcChademo_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_stSwtPreProcChinaAc_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_stSwtPreProcChinaDc_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_tiPerdCcsCtpSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_tiPerdChinaAcCtpSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uBattNom_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawCcsCtpSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawCcsPlgPosnSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawCcsPxpSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawChademoCtp1SubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawChademoCtp3SubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawChademoPxpDiagNegSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawChademoPxpSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawChinaAcCcSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawChinaAcCtpSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawChinaDcAux1SubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawChinaDcCc1SubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawChinaDcCc2DiagNegSubVal_C
+INFO: Reading properties of Calibration : MonEgyChrgnInlet_uRawChinaDcCc2SubVal_C
+INFO: Number of owned calibration parameters found: 42
+####################################################################
+######   Read_PaVaSt_Owned_Calibration_Parameters finished    ######
+####################################################################
+####################################################################
+######    Read_PaVaSt_Import_Calibration_Parameters started   ######
+####################################################################
+INFO: No Import Calibrations found
+INFO: Number of imported calibration parameters found: 0
+####################################################################
+######   Read_PaVaSt_Import_Calibration_Parameters finished   ######
+####################################################################
+####################################################################
+######           Read_PaVaSt_Owned_Classes started            ######
+####################################################################
+INFO: Number of owned classes found: 0
+####################################################################
+######            Read_PaVaSt_Owned_Classes finished          ######
+####################################################################
+####################################################################
+######           Read_PaVaSt_Import_Classes started           ######
+####################################################################
+INFO: Found import section. Check for imported classes
+INFO: Found imported class                        : TYP_Mo_PackedBitCyclicCheck
+INFO: Found imported class                        : TYP_Mo_RamBbCyclicCheckU8
+INFO: Total imported classes found: 2
+####################################################################
+######           Read_PaVaSt_Import_Classes finished          ######
+####################################################################
+####################################################################
+######   Read_PaVaSt_Imported_Class_Instances started        ######
+####################################################################
+INFO: Found import section. Check for imported classes
+INFO: Total imported classes found: 0
+####################################################################
+######   Read_PaVaSt_Imported_Class_Instances finished       ######
+####################################################################
+####################################################################
+######           Read_PaVaSt_Compu_Methods started            ######
+####################################################################
+INFO: Total Owned Variables found: 5
+####################################################################
+######           Read_PaVaSt_Compu_Methods finished           ######
+####################################################################
+####################################################################
+######         Read_PaVaSt_SystemConstants started            ######
+####################################################################
+####################################################################
+######         Read_PaVaSt_SystemConstants finished           ######
+####################################################################
+INFO :: Reading additional pavast information for file MoFErrHndlg_Lib_pavast.xml
+####################################################################
+######           Read_PaVaSt_Owned_Classes started            ######
+####################################################################
+INFO: Found owned class                         : MoFErrHndlg_Lib_DataDeb
+INFO: Found class variable                      : cntErrDeb
+INFO: Found class variable                      : cntErrDebCpl
+INFO: Found class variable                      : stErrDeb
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MoFErrHndlg_Lib_DataDeb_I
+INFO: Found class instance Impl Ref             : MoFErrHndlg_Lib_DataDeb/LVL2
+INFO: Found class CAL ACCESS                    : READ-WRITE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MoFErrHndlg_Lib_DataDebErrReactn
+INFO: Found class variable                      : cntErrDeb
+INFO: Found class variable                      : cntErrDebCpl
+INFO: Found class variable                      : stErrDeb
+INFO: Found class variable                      : stErrDebCpl
+INFO: Found class variable                      : stErrLockRels
+INFO: Found class variable                      : stErrLockRelsCpl
+INFO: Found class variable                      : stErrReactn
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MoFErrHndlg_Lib_DataDebErrReactn_I
+INFO: Found class instance Impl Ref             : MoFErrHndlg_Lib_DataDebErrReactn/LVL2
+INFO: Found class CAL ACCESS                    : READ-WRITE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MoFErrHndlg_Lib_DataErrReactn
+INFO: Found class variable                      : stErrLockRels
+INFO: Found class variable                      : stErrLockRelsCpl
+INFO: Found class variable                      : stErrReactn
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MoFErrHndlg_Lib_DataErrReactn_I
+INFO: Found class instance Impl Ref             : MoFErrHndlg_Lib_DataErrReactn/LVL2
+INFO: Found class CAL ACCESS                    : READ-WRITE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MoFErrHndlg_Lib_DataUpDwnDeb
+INFO: Found class variable                      : cntErrDeb
+INFO: Found class variable                      : cntErrDebCpl
+INFO: Found class variable                      : stErrDeb
+INFO: Found class variable                      : stErrDebCpl
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MoFErrHndlg_Lib_DataUpDwnDeb_I
+INFO: Found class instance Impl Ref             : MoFErrHndlg_Lib_DataUpDwnDeb/LVL2
+INFO: Found class CAL ACCESS                    : READ-WRITE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MoFErrHndlg_Lib_DataUpDwnDebErrReactn
+INFO: Found class variable                      : cntErrDeb
+INFO: Found class variable                      : cntErrDebCpl
+INFO: Found class variable                      : stErrDeb
+INFO: Found class variable                      : stErrDebCpl
+INFO: Found class variable                      : stErrLockRels
+INFO: Found class variable                      : stErrLockRelsCpl
+INFO: Found class variable                      : stErrReactn
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MoFErrHndlg_Lib_DataUpDwnDebErrReactn_I
+INFO: Found class instance Impl Ref             : MoFErrHndlg_Lib_DataUpDwnDebErrReactn/LVL2
+INFO: Found class CAL ACCESS                    : READ-WRITE
+INFO: Class instance is under system condition  : 
+INFO: Number of owned classes found: 5
+####################################################################
+######            Read_PaVaSt_Owned_Classes finished          ######
+####################################################################
+INFO :: Reading additional pavast information for file MoFFuCellErrHndlg_Lib_pavast.xml
+####################################################################
+######           Read_PaVaSt_Owned_Classes started            ######
+####################################################################
+INFO: Found owned class                         : MoFFuCellErrHndlg_Lib_DataDeb
+INFO: Found class variable                      : cntrErrDeb
+INFO: Found class variable                      : cntrErrDebCpl
+INFO: Found class variable                      : stErrDeb
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MoFFuCellErrHndlg_Lib_DataDeb_I
+INFO: Found class instance Impl Ref             : MoFFuCellErrHndlg_Lib_DataDeb/LVL2
+INFO: Found class CAL ACCESS                    : NOT-ACCESSIBLE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MoFFuCellErrHndlg_Lib_DataDebErrReactn
+INFO: Found class variable                      : cntrErrDeb
+INFO: Found class variable                      : cntrErrDebCpl
+INFO: Found class variable                      : stErrDeb
+INFO: Found class variable                      : stErrDebCpl
+INFO: Found class variable                      : stErrLockRels
+INFO: Found class variable                      : stErrLockRelsCpl
+INFO: Found class variable                      : stErrReactn
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MoFFuCellErrHndlg_Lib_DataDebErrReactn_I
+INFO: Found class instance Impl Ref             : MoFFuCellErrHndlg_Lib_DataDebErrReactn/LVL2
+INFO: Found class CAL ACCESS                    : NOT-ACCESSIBLE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MoFFuCellErrHndlg_Lib_DataErrReactn
+INFO: Found class variable                      : stErrLockRels
+INFO: Found class variable                      : stErrLockRelsCpl
+INFO: Found class variable                      : stErrReactn
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MoFFuCellErrHndlg_Lib_DataErrReactn_I
+INFO: Found class instance Impl Ref             : MoFFuCellErrHndlg_Lib_DataErrReactn/LVL2
+INFO: Found class CAL ACCESS                    : NOT-ACCESSIBLE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MoFFuCellErrHndlg_Lib_DataUpDwnDeb
+INFO: Found class variable                      : cntrErrDeb
+INFO: Found class variable                      : cntrErrDebCpl
+INFO: Found class variable                      : stErrDeb
+INFO: Found class variable                      : stErrDebCpl
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MoFFuCellErrHndlg_Lib_DataUpDwnDeb_I
+INFO: Found class instance Impl Ref             : MoFFuCellErrHndlg_Lib_DataUpDwnDeb/LVL2
+INFO: Found class CAL ACCESS                    : NOT-ACCESSIBLE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MoFFuCellErrHndlg_Lib_DataUpDwnDebErrReactn
+INFO: Found class variable                      : cntrErrDeb
+INFO: Found class variable                      : cntrErrDebCpl
+INFO: Found class variable                      : stErrDeb
+INFO: Found class variable                      : stErrDebCpl
+INFO: Found class variable                      : stErrLockRels
+INFO: Found class variable                      : stErrLockRelsCpl
+INFO: Found class variable                      : stErrReactn
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MoFFuCellErrHndlg_Lib_DataUpDwnDebErrReactn_I
+INFO: Found class instance Impl Ref             : MoFFuCellErrHndlg_Lib_DataUpDwnDebErrReactn/LVL2
+INFO: Found class CAL ACCESS                    : NOT-ACCESSIBLE
+INFO: Class instance is under system condition  : 
+INFO: Number of owned classes found: 5
+####################################################################
+######            Read_PaVaSt_Owned_Classes finished          ######
+####################################################################
+INFO :: Reading additional pavast information for file mofsrv_libf_pavast.xml
+####################################################################
+######           Read_PaVaSt_Owned_Classes started            ######
+####################################################################
+INFO: Found owned class                         : MoFSrv_LibF_AnSigEval
+INFO: Found class variable                      : cntrErrDeb
+INFO: Found class variable                      : cntrErrDebCpl
+INFO: Found class variable                      : flgBswErr
+INFO: Found class variable                      : flgSigRngErr
+INFO: Found class variable                      : flgSigRngHiErr
+INFO: Found class variable                      : flgSigRngLoErr
+INFO: Found class variable                      : qlfr
+INFO: Found class variable                      : uAdc
+INFO: Found class variable                      : valRaw
+INFO: Found class variable                      : valRawCpl
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MoFSrv_LibF_AnSigEval_I
+INFO: Found class instance Impl Ref             : MoFSrv_LibF_AnSigEval/LVL2
+INFO: Found class CAL ACCESS                    : NOT-ACCESSIBLE
+INFO: Class instance is under system condition  : 
+INFO: Number of owned classes found: 1
+####################################################################
+######            Read_PaVaSt_Owned_Classes finished          ######
+####################################################################
+INFO :: Reading additional pavast information for file mofsrv_lib_pavast.xml
+####################################################################
+######           Read_PaVaSt_Owned_Classes started            ######
+####################################################################
+INFO: Found owned class                         : MoFSrv_TotLowPassHiDlyS16Data
+INFO: Found class variable                      : FltLo_U16
+INFO: Found class variable                      : FltHi_S16
+INFO: Found class variable                      : idx_U8
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : SEPARATED N_CLASS OML_CLASS
+INFO: Found class attribute implementation      : IT
+INFO: Found class implementation policy         : SEPARATED N_CLASS OML_CLASS
+INFO: Search for instances of current class 
+INFO: Found owned class                         : MoFSrv_TotLowPassS16DataCpl
+INFO: Search for instances of current class 
+INFO: Found owned class                         : MoFSrv_EEPU8Data
+INFO: Found class variable                      : RCWrData_U8
+INFO: Found class variable                      : RCWrStOrder_U8
+INFO: Found class variable                      : RCReadData_U8
+INFO: Found class variable                      : RCReadStOrder_U8
+INFO: Found class variable                      : RCReadIni_U8
+INFO: Found class variable                      : RCReadIniStOrder_U8
+INFO: Found class variable                      : ChkSumReadIni_U8
+INFO: Found class variable                      : DataReadIni_U8
+INFO: Found class variable                      : StWrErr_U8
+INFO: Found class variable                      : cntrErrDeb
+INFO: Found class variable                      : cntrErrDebCpl
+INFO: Found class variable                      : flgBswErr
+INFO: Found class variable                      : flgSigRngErr
+INFO: Found class variable                      : flgSigRngHiErr
+INFO: Found class variable                      : flgSigRngLoErr
+INFO: Found class variable                      : qlfr
+INFO: Found class variable                      : uAdc
+INFO: Found class variable                      : val
+INFO: Found class variable                      : valCpl
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC N_CLASS MML_CLASS
+INFO: Search for instances of current class 
+INFO: Number of owned classes found: 3
+####################################################################
+######            Read_PaVaSt_Owned_Classes finished          ######
+####################################################################
+INFO :: Reading additional pavast information for file mofucell_cfg_pavast.xml
+####################################################################
+######           Read_PaVaSt_Owned_Classes started            ######
+####################################################################
+INFO: Number of owned classes found: 0
+####################################################################
+######            Read_PaVaSt_Owned_Classes finished          ######
+####################################################################
+INFO :: Reading additional pavast information for file MonPt_Info_pavast.xml
+####################################################################
+######           Read_PaVaSt_Owned_Classes started            ######
+####################################################################
+INFO: Found owned class                         : MonPt_IfcEm
+INFO: Found class variable                      : om
+INFO: Found class variable                      : rat
+INFO: Found class variable                      : st
+INFO: Found class variable                      : tq
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC SINGLE_CLASS OML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MonPt_IfcEm_I
+INFO: Found class instance Impl Ref             : MonPt_IfcEm/LVL2
+INFO: Found class CAL ACCESS                    : READ-WRITE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MonPt_IfcEmCpl
+INFO: Found class variable                      : omCpl
+INFO: Found class variable                      : ratCpl
+INFO: Found class variable                      : stCpl
+INFO: Found class variable                      : tqCpl
+INFO: Found class attribute implementation      : CPL
+INFO: Found class implementation policy         : PRIVATE SINGLE_CLASS OML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MonPt_IfcEmCpl_I
+INFO: Found class instance Impl Ref             : MonPt_IfcEmCpl/CPL
+INFO: Found class CAL ACCESS                    : READ-WRITE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MonPt_IfcEng
+INFO: Found class variable                      : aga
+INFO: Found class variable                      : om
+INFO: Found class variable                      : st
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC SINGLE_CLASS OML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MonPt_IfcEng_I
+INFO: Found class instance Impl Ref             : MonPt_IfcEng/LVL2
+INFO: Found class CAL ACCESS                    : READ-WRITE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MonPt_IfcEngCpl
+INFO: Found class variable                      : agaCpl
+INFO: Found class variable                      : omCpl
+INFO: Found class variable                      : stCpl
+INFO: Found class attribute implementation      : CPL
+INFO: Found class implementation policy         : PRIVATE SINGLE_CLASS OML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MonPt_IfcEngCpl_I
+INFO: Found class instance Impl Ref             : MonPt_IfcEngCpl/CPL
+INFO: Found class CAL ACCESS                    : READ-WRITE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MonPt_IfcPt
+INFO: Found class variable                      : aga
+INFO: Found class variable                      : om
+INFO: Found class variable                      : st
+INFO: Found class variable                      : tq
+INFO: Found class variable                      : tqJerk
+INFO: Found class attribute implementation      : LVL2
+INFO: Found class implementation policy         : PUBLIC SINGLE_CLASS OML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MonPt_IfcDataPt_I
+INFO: Found class instance Impl Ref             : MonPt_IfcPt/LVL2
+INFO: Found class CAL ACCESS                    : READ-WRITE
+INFO: Class instance is under system condition  : 
+INFO: Found owned class                         : MonPt_IfcPtCpl
+INFO: Found class variable                      : agaCpl
+INFO: Found class variable                      : omCpl
+INFO: Found class variable                      : stCpl
+INFO: Found class variable                      : tqCpl
+INFO: Found class variable                      : tqJerkCpl
+INFO: Found class attribute implementation      : CPL
+INFO: Found class implementation policy         : PRIVATE SINGLE_CLASS OML_CLASS
+INFO: Search for instances of current class 
+INFO: Found class instance                      : MonPt_IfcDataPtCpl_I
+INFO: Found class instance Impl Ref             : MonPt_IfcPtCpl/CPL
+INFO: Found class CAL ACCESS                    : READ-WRITE
+INFO: Class instance is under system condition  : 
+INFO: Number of owned classes found: 6
+####################################################################
+######            Read_PaVaSt_Owned_Classes finished          ######
+####################################################################
+INFO :: Reading additional pavast information for file mo_conf_pavast.xml
+####################################################################
+######           Read_PaVaSt_Owned_Classes started            ######
+####################################################################
+INFO: Number of owned classes found: 0
+####################################################################
+######            Read_PaVaSt_Owned_Classes finished          ######
+####################################################################
+####################################################################
+#  Read_MoConf_PaVaSt_Owned_Class_Instances started                #
+####################################################################
+INFO: Found Owned section. Check for class instance owned by mo_conf
+INFO: Found owned class Instance in mo_conf  : MoFuCell_IAndeIsoVlvDataAnSig1_I
+INFO: Found owned class Instance in mo_conf  : MoFuCell_IHGasInjrDataAnSig1_I
+INFO: Found owned class Instance in mo_conf  : MoFuCell_PRelAndeIntkDataAnSig1_I
+INFO: Found owned class Instance in mo_conf  : MoFuCell_PRelAndeIntkDataAnSig2_I
+INFO: Found owned class Instance in mo_conf  : MoFuCell_PRelAndeOutlDataAnSig1_I
+INFO: Found owned class Instance in mo_conf  : MoFuCell_PRelCtdeIntkDataAnSig1_I
+INFO: Found owned class Instance in mo_conf  : MoFuCell_PRelCtdeOutlDataAnSig1_I
+INFO: Found owned class Instance in mo_conf  : MoFuCell_PRelHGasInjrIntkDataAnSig1_I
+INFO: Found owned class Instance in mo_conf  : MoFuCell_THGasInjrIntkDataAnSig1_I
+####################################################################
+####  Read_MoConf_PaVaSt_Owned_Class_Instances started           ###
+####################################################################
+####################################################################
+#  Read_PaVaSt_Owned_Class_Instances_ImportedClasses       started #
+####################################################################
+INFO: Total Read_PaVaSt_Owned_Class_Instances_ImportedClasses instances found: 0
+####################################################################
+####  Read_PaVaSt_Owned_Class_Instances_ImportedClasses finished ###
+####################################################################
+####################################################################
+######              Read_Code_Constants started               ######
+####################################################################
+####################################################################
+######              Read_Code_Constants finished              ######
+####################################################################
+Selected Target Implementation: ASCET
+Config File : C:/toolbase/masst/1.3.4\project\Configuration_ASCET.xls
+####################################################################
+######         RB_Read_ServiceLib_Data has started            ######
+####################################################################
+INFO: Found  for 
+####################################################################
+######         RB_Read_ServiceLib_Data has ended              ######
+####################################################################
+####################################################################
+######         RB_Add_ServiceLib_Data has started             ######
+####################################################################
+####################################################################
+######         RB_Add_ServiceLib_Data has ended               ######
+####################################################################
+####################################################################
+######                      FCConfigs started                 ######
+####################################################################
+INFO: Found type : NoCpl
+INFO: Found Complement variable exception : MoFInjITA_dataEep
+INFO: Found type : VarChange
+INFO: Found Variable for Property change : MoFInjDatGetInj_bbLoc1
+INFO: Found Variable for Property change  : MoFInjDatGetInj_bbLoc2
+INFO: Found Variable for Property change  : MoFInjDatGetInj_bbOut1
+INFO: Found Variable for Property change  : MoFInjDat_stInjState
+INFO: Found Configuration Proc_CplChk for : MoFInjDat_stTmp
+INFO: Found Configuration Proc_CplChk for : MoFInjDat_stETCTst
+INFO: Found type : AddCpl
+INFO: Found type : NoCpl
+INFO: Found Complement variable exception : MoFHybRx_MonBuff
+INFO: Found Configuration Proc_CplChk for : MoFInjDat_rTqPtdFlt
+INFO: Found type : UserProcCplChk
+INFO: Found type insied: UserProcCplChk
+INFO: Found Configuration Proc_CplChk for : MoFGearLvrCoorn_ePosIniNvm
+INFO: Found Complement variable exception : MoFInjITA_codInjRaw
+INFO: Found Complement variable exception : MoFInjITA_stDftInjrCod
+INFO: Found type : AddMemCheck
+INFO: Found type : NoCpl
+INFO: Found Complement variable exception : MoFFrm_tqtIntglTqEngPtdChk
+INFO: Found type : NoCplClass
+INFO: Found Complement CLASS exception : MoFHybMod_EmRe_SM
+INFO: Found Complement variable exception : MoFInjITA_pRailChkPnt
+INFO: Found Complement variable exception : MoFInjITA_numBrkPntDeltaSOI
+INFO: Found Configuration Proc_CplChk for : MoFInjITA_BrkPnt
+INFO: Found type : FC_MemoryCheck
+INFO: Found type : FC_MemoryCheck
+INFO: Found type : FC_MemoryCheck
+INFO: Found type : FC_MemoryCheck
+INFO: Found type : FC_MemoryCheck
+INFO: Found type : FC_MemoryCheck
+INFO: Found type : AddCpl
+INFO: Found Configuration Replace_PFC for : MOFINJDAT_COORR_PROC_10MS_PFC_ID
+INFO: Found type : AddCpl
+INFO: Found Configuration Replace_PFC for : MOFINJDAT_GETLVL1DATA_PROC_10MS_PFC_ID
+INFO: Found type : AddCpl
+INFO: Found Configuration Replace_PFC for : MOFINJDAT_GETRAILP_PROC_10MS_PFC_ID
+INFO: Found type : AddCpl
+INFO: Found Configuration Replace_PFC for : MOFINJDAT_GETINJDATA_PROC_10MS_PFC_ID
+INFO: Found Variable for Property change  : MoFInjDatGetInjData_bbLoc2
+INFO: Found Variable for Property change  : MoFInjDatGetInjData_bbLoc3
+INFO: Found Variable for Property change  : MoFInjDat_stInjState
+INFO: Found Variable for Property change  : MoFInjDatCoorr_bbLoc1
+INFO: Found type : Public_Macro
+INFO: Found type : Public_Macro
+INFO: Found type : NoCpl
+INFO: Found Complement variable exception : MoFFuCellErrHndlg_stRstrtLockEEP
+INFO: Found type : Public_Macro
+INFO: Found type : Public_Macro
+####################################################################
+######                      FCConfigs finished                ######
+####################################################################
+####################################################################
+######               RB_TPTFile_Generation started            ######
+####################################################################
+WARNING : No Test folder found for CSV based test cases
+####################################################################
+######               RB_TPT_AddDeclarations started           ######
+####################################################################
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_ratPwmCcsCtpLoc
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_ratPwmCcsCtpLocCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_ratPwmChinaAcCtpLoc
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_ratPwmChinaAcCtpLocCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_tiPerdCcsCtpLoc
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_tiPerdCcsCtpLocCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_tiPerdChinaAcCtpLoc
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_tiPerdChinaAcCtpLocCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uAdcRawChademoCtp1
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uAdcRawChademoCtp1Cpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uAdcRawChademoCtp3
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uAdcRawChademoCtp3Cpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uAdcRawChademoPxP
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uAdcRawChademoPxPCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uAdcRawChinaDcCc1
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uAdcRawChinaDcCc1Cpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uAdcRawChinaDcCc2
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uAdcRawChinaDcCc2Cpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uBattAct
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uBattActCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInletInp_bbOut1
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInletInp_bbOut1Cpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInletInp_bbOut2
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInletInp_bbOut2Cpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_facCorrUBatt
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_facCorrUBattCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgCcsCtpDiag
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgChademoCtp1
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgChademoCtp1Diag
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgChademoCtp3Diag
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgChademoCtp3Ena
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgChademoPxpDiag
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgChademoPxpEna
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgChinaAcCtpDiag
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgChinaDcAux1
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgChinaDcCc1Diag
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgChinaDcCc2Diag
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_flgChinaDcCc2Ena
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_ratPwmCcsCtp
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_ratPwmCcsCtpCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_ratPwmChinaAcCtp
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_ratPwmChinaAcCtpCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_tiPerdCcsCtp
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_tiPerdCcsCtpCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_tiPerdChinaAcCtp
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_tiPerdChinaAcCtpCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawCcsCtp
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawCcsCtpCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawCcsIntlckChrgPlgPosn
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawCcsIntlckChrgPlgPosnCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawCcsPxp
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawCcsPxpCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChademoCtp1
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChademoCtp1Cpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChademoCtp3
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChademoCtp3Cpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChademoPxp
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChademoPxpCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChademoPxpDiagNeg
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChademoPxpDiagNegCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaAcCc
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaAcCcCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaAcCtp
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaAcCtpCpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaDcAux1
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaDcAux1Cpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaDcCc1
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaDcCc1Cpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaDcCc2
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaDcCc2Cpl
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaDcCc2DiagNeg
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnInlet_uRawChinaDcCc2DiagNegCpl
+INFO : Add owned pavast class-variables  
+INFO : Add owned header class-variables  
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnDefn_flgVrntCcsAcInlet
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnDefn_flgVrntCcsDcInlet
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnDefn_flgVrntCcsPlgLock
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnDefn_flgVrntChademoInlet
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnDefn_flgVrntChinaAcInlet
+INFO: RB_TPT_AddDeclarationVar : MonEgyChrgnDefn_flgVrntChinaDcInlet
+INFO: RB_TPT_AddDeclarationVar : Mo_stMoC
+INFO: RB_TPT_AddDeclarationVar : Mo_stMoCCpl
+INFO: RB_TPT_AddDeclarationVar : Mo_stCplChk
+####################################################################
+######               RB_TPT_AddDeclarations Finsihed          ######
+####################################################################
+####################################################################
+######               RB_TPT_AddMappings started               ######
+####################################################################
+####################################################################
+######               RB_TPT_AddMappings Finished              ######
+####################################################################
+####################################################################
+######            RB_TPT_CreateTestCases  started        ######
+####################################################################
+######             RB_TPT_AddTestCase_CplChk Started             ######
+######             RB_TPT_AddTestCase_ValidFloatChk Started             ######
+####################################################################
+######                   RB_TPT_States started                ######
+####################################################################
+INFO : RB_TPT_AddStateAutoGeneratedTestCases started 
+####################################################################
+######                 RB_TPT_States finished                 ######
+####################################################################
+####################################################################
+######               RB_TPT_AddAssesslets started             ######
+####################################################################
+####################################################################
+######              RB_TPT_AddAssesslets finished             ######
+####################################################################
+####################################################################
+######                RB_TPT_AddPlatforms started             ######
+####################################################################
+INFO:  Adding RB_TPT_AddTestSet :[MASST]Ini_MonEgyChrgnInlet_Inp_Proc_Ini
+INFO:  Adding TestSet_Config :MASST/[MASST]Ini/TC 1.0 [MASST]Ini_MonEgyChrgnInlet_Inp_Proc_Ini: [MASST]default
+INFO:  Adding RB_TPT_AddTestSet Config type:INI_PROC_INI
+INFO:  Adding RB_TPT_AddTestSet :[MASST]CplChk_MonEgyChrgnInlet_Inp_Proc
+INFO:  Adding TestSet_Config :MASST/[MASST]CplChk/TC 2.0 [MASST]CplChk_MonEgyChrgnInlet_Inp_Proc: [MASST]default
+INFO:  Adding RB_TPT_AddTestSet Config type:CPLCHK_PROC
+####################################################################
+######               RB_TPT_AddPlatforms finished             ######
+####################################################################
+####################################################################
+######             RB_TPTFile_Generation finished             ######
+####################################################################
+####################################################################
+######             TPT FILE generation Finished               ######
+####################################################################

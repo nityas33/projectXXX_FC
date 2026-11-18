@@ -1,0 +1,20 @@
+[input]
+sources = [
+    'C:\Users\VJB3KOR\Desktop\TASK\New folder (2)\MonEgyChrgnInlet_Inp\sources\monegychrgninlet_inp.c',
+    'C:\Users\VJB3KOR\Desktop\TASK\New folder (2)\MonEgyChrgnInlet_Inp\sources\MonEgyChrgnInlet_Inp_fault_inj_code.c',
+]
+includes = ['..\CDS26_EC3_DEMO___DEMO_ADR1KOR__0__CDS0026_CHRGN___DEMO_ADR1KOR__0__Build_2\CDS26_EC3_DEMO__DEMO_ADR1KOR0\_gen\swb\filegroup\includes\*']
+plugins = ['.\Mcu.lua']
+
+[build]
+cmd = "bcu.cmd -exe make"
+working_dir = 'C:\Users\VJB3KOR\Desktop\TASK\New folder (2)\MonEgyChrgnInlet_Inp\.'
+gcc_path = 'C:\toolbase\mingw\comp_10.4.0_multilib_1f\bin\gcc.exe'
+
+[build.env]
+SRV_MDG = "2"
+
+[output]
+stub_c = 'C:\Users\VJB3KOR\Desktop\TASK\New folder (2)\MonEgyChrgnInlet_Inp\.\My\my_stubs.c'
+stub_h = 'C:\Users\VJB3KOR\Desktop\TASK\New folder (2)\MonEgyChrgnInlet_Inp\.\My\my_stubs.h'
+dummies_dir = 'C:\Users\VJB3KOR\Desktop\TASK\New folder (2)\MonEgyChrgnInlet_Inp\.\Dummies'
