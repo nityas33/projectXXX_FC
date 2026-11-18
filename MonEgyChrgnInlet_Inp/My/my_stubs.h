@@ -38,6 +38,9 @@ uint8 Mo_SyC_stSub;
 extern uint16 ret_UCtP_I_A;
 extern uint16 ret_UPxP1_I_A;
 extern uint16 ret_IntlckChrgPlgPosn_I_A;
+extern uint16 ret_McsChrgEnaLineU_I_A;
+extern uint16 ret_McsInsertDetnLineU_I_A;
+extern uint16 ret_IntlckChrgPlg3Posn_I_A;
 extern uint16 ret_BattU_I_A;
 extern uint16 ret_ChademoChrgnCtpU1_I_A;
 extern uint16 ret_ChademoChrgnEnaDiagU_I_A;
@@ -63,6 +66,7 @@ extern float ret_ChaxCtrlPltSwtDiag_O_D;
 extern float ret_ChaxProxPltSwt21_O_D;
 extern float ret_ChaxProxPltSwtDiag1_O_D;
 extern float ret_ChaxProxPltSwtDiag2_O_D;
+extern float ret_McsChrgEnaLineRdy2Diag_I_D;
 extern uint32 ret_Pwmin_rDutycycle;
 extern uint32 ret_Pwmin_tiHighdur;
 extern uint32 ret_Pwmin_tiPeriod;
@@ -86,6 +90,7 @@ extern uint16 ret_Pwmin_stSignal;
 #define MonEgyChrgnInlet_flgChinaAcCtpDiag_MoPut(a1) if((a1)){MonEgyChrgnInletInp_bbOut2 =( MonEgyChrgnInletInp_bbOut2 | ((( uint8)1u) << 1) );MonEgyChrgnInletInp_bbOut2Cpl = ( MonEgyChrgnInletInp_bbOut2Cpl & ((uint8) (~(((uint8)1u) << 1))) );}else{MonEgyChrgnInletInp_bbOut2 =( MonEgyChrgnInletInp_bbOut2 & ((uint8)(~(((uint8)1u) << 1))) );MonEgyChrgnInletInp_bbOut2Cpl = ( MonEgyChrgnInletInp_bbOut2Cpl | (((uint8)1u) << 1) );}
 #define MonEgyChrgnInlet_flgChinaDcCc1Diag_MoPut(a1) if((a1)){MonEgyChrgnInletInp_bbOut2 =( MonEgyChrgnInletInp_bbOut2 | ((( uint8)1u) << 2) );MonEgyChrgnInletInp_bbOut2Cpl = ( MonEgyChrgnInletInp_bbOut2Cpl & ((uint8) (~(((uint8)1u) << 2))) );}else{MonEgyChrgnInletInp_bbOut2 =( MonEgyChrgnInletInp_bbOut2 & ((uint8)(~(((uint8)1u) << 2))) );MonEgyChrgnInletInp_bbOut2Cpl = ( MonEgyChrgnInletInp_bbOut2Cpl | (((uint8)1u) << 2) );}
 #define MonEgyChrgnInlet_flgChinaDcCc2Diag_MoPut(a1) if((a1)){MonEgyChrgnInletInp_bbOut2 =( MonEgyChrgnInletInp_bbOut2 | ((( uint8)1u) << 5) );MonEgyChrgnInletInp_bbOut2Cpl = ( MonEgyChrgnInletInp_bbOut2Cpl & ((uint8) (~(((uint8)1u) << 5))) );}else{MonEgyChrgnInletInp_bbOut2 =( MonEgyChrgnInletInp_bbOut2 & ((uint8)(~(((uint8)1u) << 5))) );MonEgyChrgnInletInp_bbOut2Cpl = ( MonEgyChrgnInletInp_bbOut2Cpl | (((uint8)1u) << 5) );}
+#define MonEgyChrgnInlet_flgMcsSv3RdntClsd_MoPut(a1) if((a1)){MonEgyChrgnInletInp_bbOut2 =( MonEgyChrgnInletInp_bbOut2 | ((( uint8)1u) << 4) );MonEgyChrgnInletInp_bbOut2Cpl = ( MonEgyChrgnInletInp_bbOut2Cpl & ((uint8) (~(((uint8)1u) << 4))) );}else{MonEgyChrgnInletInp_bbOut2 =( MonEgyChrgnInletInp_bbOut2 & ((uint8)(~(((uint8)1u) << 4))) );MonEgyChrgnInletInp_bbOut2Cpl = ( MonEgyChrgnInletInp_bbOut2Cpl | (((uint8)1u) << 4) );}
 #define MonEgyChrgnInlet_flgChinaDcCc2Ena_MoPut(a1) if((a1)){MonEgyChrgnInletInp_bbOut2 =( MonEgyChrgnInletInp_bbOut2 | ((( uint8)1u) << 6) );MonEgyChrgnInletInp_bbOut2Cpl = ( MonEgyChrgnInletInp_bbOut2Cpl & ((uint8) (~(((uint8)1u) << 6))) );}else{MonEgyChrgnInletInp_bbOut2 =( MonEgyChrgnInletInp_bbOut2 & ((uint8)(~(((uint8)1u) << 6))) );MonEgyChrgnInletInp_bbOut2Cpl = ( MonEgyChrgnInletInp_bbOut2Cpl | (((uint8)1u) << 6) );}
 
 #define PwmCtP_I_P 12
@@ -95,6 +100,10 @@ extern uint16 ret_Pwmin_stSignal;
 #define UCtP_I_A 28
 
 #define IntlckChrgPlgPosn_I_A 16
+#define McsChrgEnaLineU_I_A 54
+#define McsInsertDetnLineU_I_A 55
+#define IntlckChrgPlg3Posn_I_A 56
+#define McsChrgEnaLineRdy2Diag_I_D 57
 
 #define ChademoChrgnCtpU1_I_A 32
 #define ChademoChrgnEnaDiagU_I_A 33
@@ -133,6 +142,10 @@ extern uint16 ret_Pwmin_stSignal;
 
 #define MonEgyChrgnDefn_flgVrntChinaAcInlet_MoGet (MonEgyChrgnDefn_flgVrntChinaAcInlet)
 
+#define MonEgyChrgnDefn_flgVrntMcsInlet_MoGet (MonEgyChrgnDefn_flgVrntMcsInlet)
+
+#define MonEgyChrgnDefn_flgVrntMcsPlgLock_MoGet (MonEgyChrgnDefn_flgVrntMcsPlgLock)
+
 typedef uint16 rba_IoSigAdc_idSignal_tu16;
 typedef uint16 rba_IoSigDio_idSignal_tu16;
 typedef struct
@@ -166,6 +179,7 @@ static inline __attribute__ ((always_inline)) boolean Dio_Get(rba_IoSigDio_idSig
     if (idSignal_u16 == ChaxProxPltSwt21_O_D) return ret_ChaxProxPltSwt21_O_D != 0.0f;
     if (idSignal_u16 == ChaxProxPltSwtDiag1_O_D) return ret_ChaxProxPltSwtDiag1_O_D != 0.0f;
     if (idSignal_u16 == ChaxProxPltSwtDiag2_O_D) return ret_ChaxProxPltSwtDiag2_O_D != 0.0f;
+    if (idSignal_u16 == McsChrgEnaLineRdy2Diag_I_D) return ret_McsChrgEnaLineRdy2Diag_I_D != 0.0f;
     return (boolean){0};
 }
 static inline __attribute__ ((always_inline)) sint16 Adc_GetRawRatio(rba_IoSigAdc_idSignal_tu16 idSignal_u16)
@@ -173,6 +187,9 @@ static inline __attribute__ ((always_inline)) sint16 Adc_GetRawRatio(rba_IoSigAd
     if (idSignal_u16 == UCtP_I_A) return (sint16)ret_UCtP_I_A;
     if (idSignal_u16 == UPxP1_I_A) return (sint16)ret_UPxP1_I_A;
     if (idSignal_u16 == IntlckChrgPlgPosn_I_A) return (sint16)ret_IntlckChrgPlgPosn_I_A;
+    if (idSignal_u16 == McsChrgEnaLineU_I_A) return (sint16)ret_McsChrgEnaLineU_I_A;
+    if (idSignal_u16 == McsInsertDetnLineU_I_A) return (sint16)ret_McsInsertDetnLineU_I_A;
+    if (idSignal_u16 == IntlckChrgPlg3Posn_I_A) return (sint16)ret_IntlckChrgPlg3Posn_I_A;
     if (idSignal_u16 == BattU_I_A) return (sint16)ret_BattU_I_A;
     if (idSignal_u16 == ChademoChrgnCtpU1_I_A) return (sint16)ret_ChademoChrgnCtpU1_I_A;
     if (idSignal_u16 == ChademoChrgnEnaDiagU_I_A) return (sint16)ret_ChademoChrgnEnaDiagU_I_A;
